@@ -1,4 +1,11 @@
+import sys
+import os
+
 import pytest
+
+# Add parent directory to path to import src module
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.battery_tester import ADBBatteryTester
 
 @pytest.fixture(scope="session")
