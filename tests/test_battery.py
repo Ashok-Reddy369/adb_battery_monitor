@@ -1,7 +1,9 @@
 import pytest
 from src.battery_tester import ADBBatteryTester
 from src.adb_log_collector import ADBLogCollector
-from src.report_generator import BatteryReport
+from src.report_collector import BatteryReport
+from src.adb_utils import get_battery_level
+
 
 
 @pytest.mark.device
@@ -36,3 +38,9 @@ def test_battery_health(battery_tester, caplog):
 def test_battery_parser(healthy_battery):
     tester = ADBBatteryTester()
     assert tester.is_healthy(healthy_battery)
+
+
+def test_battery_level_is_valid():
+    battery_level = get_battery_level()
+    assert 0 <= battery_level <= 100,f"Invalid battery level: {battery_level}"
+    
