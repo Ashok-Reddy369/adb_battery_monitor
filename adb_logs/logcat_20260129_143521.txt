@@ -1,0 +1,1437 @@
+--------- beginning of system
+01-29 13:42:14.066  1089  1190 I ActivityManager: Start proc 3282:com.google.process.gservices/u0a127 for content provider {com.google.android.gsf/com.google.android.gsf.gservices.GservicesProvider}
+01-29 13:42:14.074  1089  1347 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+01-29 13:42:14.092  1089  1347 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+01-29 13:42:14.093  1089  1189 I DropBoxManagerService: add tag=system_server_wtf isTagEnabled=true flags=0x2
+01-29 13:42:14.099  1089  1347 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+01-29 13:42:14.103  1089  1189 I DropBoxManagerService: add tag=system_server_wtf isTagEnabled=true flags=0x2
+01-29 13:42:14.107  1089  1189 I DropBoxManagerService: add tag=system_server_wtf isTagEnabled=true flags=0x2
+01-29 13:42:14.834  1089  1089 W ActivityManager: Application dead when creating service ServiceRecord{401c2e8 u0 com.google.android.partnersetup/.ClientIdJobService}
+01-29 13:42:14.835  1089  1089 I ActivityManager: Process com.google.android.partnersetup (pid 3251) has died: fg  TRNB
+01-29 13:42:14.840  1089  1089 W ActivityManager: Scheduling restart of crashed service com.google.android.partnersetup/.ClientIdJobService in 1000ms for connection
+01-29 13:42:14.856  1089  1089 W ActivityManager: Scheduling restart of crashed service com.google.android.partnersetup/.ClientIdJobService in 4000ms for always
+01-29 13:42:14.883  1089  1089 W ActivityManager: Exception when starting service com.google.android.partnersetup/.ClientIdJobService
+01-29 13:42:14.883  1089  1089 W ActivityManager: android.os.DeadObjectException
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.os.BinderProxy.transactNative(Native Method)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.os.BinderProxy.transact(BinderProxy.java:550)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.app.IApplicationThread$Stub$Proxy.scheduleCreateService(IApplicationThread.java:1401)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.am.ActiveServices.realStartServiceLocked(ActiveServices.java:3182)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:3057)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:2124)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.am.ActivityManagerService.bindIsolatedService(ActivityManagerService.java:15264)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1833)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1773)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.job.JobServiceContext.executeRunnableJob(JobServiceContext.java:253)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.job.JobConcurrencyManager.assignJobsToContextsInternalLocked(JobConcurrencyManager.java:423)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.job.JobConcurrencyManager.assignJobsToContextsLocked(JobConcurrencyManager.java:267)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.job.JobSchedulerService.maybeRunPendingJobsLocked(JobSchedulerService.java:2356)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.job.JobSchedulerService$JobHandler.handleMessage(JobSchedulerService.java:1979)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at android.os.Looper.loop(Looper.java:223)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.SystemServer.run(SystemServer.java:632)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.server.SystemServer.main(SystemServer.java:418)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at java.lang.reflect.Method.invoke(Native Method)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+01-29 13:42:14.883  1089  1089 W ActivityManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+01-29 13:42:14.884  1089  1089 W Looper  : Slow dispatch took 140ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=1
+01-29 13:42:14.888  1089  1677 I ActivityManager: Process com.google.process.gservices (pid 3282) has died: cch+5 CEM 
+01-29 13:42:14.946  1089  3314 W ProcessCpuTracker: Failed to stat(/proc/3251): android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+01-29 13:42:14.946  1089  3314 W ProcessCpuTracker: Skipping unknown process pid 3251
+01-29 13:42:16.105  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+01-29 13:42:16.282  1089  3314 I ActivityManager: Low on memory:
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??   29478: surfaceflinger (   19,096K memtrack) (pid 504) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??   18286: android.hardware.camera.provider@2.4-service (pid 482) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??   14456: zygote (pid 396) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??   11278: android.hardware.audio.service (pid 480) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    8239: mediaserver (pid 757) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    8111: webview_zygote (pid 1612) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    6232: qcrild (pid 987) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    5392: media.extractor (pid 744) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    5303: audioserver (pid 502) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    3617: cameraserver (pid 723) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    3590: media.swcodec (pid 882) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    3175: netmgrd (pid 846) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2952: init (pid 1) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2891: android.hardware.graphics.composer@2.1-service (pid 484) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2485: media.codec (pid 787) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2288: android.hardware.gnss@2.1-service-qti (pid 483) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2286: netd (pid 395) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2265: media.metrics (pid 752) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2119: cnd (pid 790) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1976: vendor.qti.hardware.perf@2.2-service (pid 495) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1947: ims_rtp_daemon (pid 1075) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1858: imsdatadaemon (pid 939) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1813: android.hardware.sensors@1.0-service (pid 491) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1732: imsrcsd (pid 1006) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1720: ueventd (pid 280) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1674: statsd (pid 394) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1622: installd (pid 734) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1578: android.hardware.bluetooth@1.0-service-qti-lazy (pid 3020) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1577: logd (pid 294) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1524: lowi-server (pid 909) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1489: vold (pid 331) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1465: init (pid 277) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1394: xtra-daemon (pid 910) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1342: thermal-engine (pid 2036) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1251: vendor.qti.hardware.display.allocator-service (pid 493) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1212: storaged (pid 767) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1182: android.hardware.wifi@1.0-service (pid 492) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1156: wificond (pid 772) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1154: qseecomd (pid 344) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1134: sensors.qti (pid 522) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1086: gpuservice (pid 503) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1081: qti (pid 1022) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1076: perfservice (pid 776) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1074: adbd (pid 2087) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    1073: keystore (pid 737) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     979: hwservicemanager (pid 297) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     972: gatekeeperd (pid 890) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     962: drmserver (pid 724) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     956: servicemanager (pid 296) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     956: imsqmidaemon (pid 805) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     946: android.hardware.power-service (pid 490) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     909: android.hardware.keymaster@4.1-service-qti (pid 306) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     896: android.hardware.health@2.1-service (pid 487) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     870: vendor.qti.hardware.vibrator.service (pid 496) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     870: incidentd (pid 732) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     866: pm-service (pid 501) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     855: android.system.suspend@1.0-service (pid 356) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     848: android.hardware.lights-service.qti (pid 488) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     845: android.hardware.gatekeeper@1.0-service-qti (pid 358) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     843: adsprpcd (pid 869) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     836: lmkd (pid 295) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     829: vendor.qti.hardware.qseecom@1.0-service (pid 309) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     818: port-bridge (pid 848) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     813: dspservice (pid 494) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     806: time_daemon (pid 389) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     789: loc_launcher (pid 886) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     782: vndservicemanager (pid 298) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     782: android.hardware.memtrack@1.0-service (pid 489) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     776: android.hardware.atrace@1.0-service (pid 357) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     773: pm-proxy (pid 617) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     768: rmt_storage (pid 506) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     736: wcnss_service (pid 719) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     663: tftp_server (pid 507) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     584: android.hidl.allocator@1.0-service (pid 481) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     582: qrtr-ns (pid 618) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??     575: traced (pid 626) native
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ntv   ??    2712: (Other native)
+01-29 13:42:16.282  1089  3314 I ActivityManager:   sys    PER    77934: system (    5,472K memtrack) (pid 1089) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   BFGS   58157: com.android.systemui (   14,912K memtrack) (pid 1482) pers-top-ui
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER    13365: com.android.phone (pid 1748) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER    12734: com.jio.adc.embedded (pid 2275) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER    11944: com.redbend.client (pid 2255) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER    10404: com.qualcomm.location (pid 2263) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER     5661: org.codeaurora.ims (pid 1727) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER     5200: .qtidataservices (pid 1680) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER     4507: com.qualcomm.qti.telephonyservice (pid 1705) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   pers   PER     4366: .dataservices (pid 1632) fixed
+01-29 13:42:16.282  1089  3314 I ActivityManager:   psvc   PER     8743: com.android.bluetooth (pid 811) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.android.bluetooth/.gatt.GattService<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   psvc   PER     8675: com.android.providers.media.module (pid 2212) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   fg     BFGS   18687: com.android.launcher3 (    1,380K memtrack) (pid 2132) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.android.launcher3/com.android.quickstep.TouchInteractionService<=Proc{1482:com.android.systemui/u0a154}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   vis    BFGS   39410: com.google.android.gms.persistent (pid 1237) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.google.android.gms/.chimera.PersistentBoundBrokerService<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   vis    BFGS   21417: com.android.systemui:screenshot (    4,372K memtrack) (pid 3492) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.android.systemui/.screenshot.TakeScreenshotService<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   vis    BFGS    4990: com.google.android.ext.services (pid 1790) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.google.android.ext.services/android.ext.services.notification.Assistant<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   vis    IMPF    4373: com.qualcomm.qcrilmsgtunnel (pid 2499) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService<=Proc{1748:com.android.phone/1001}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   prcp   IMPB   20945: com.google.android.inputmethod.latin (pid 1577) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   prcl   TRNB   22747: com.jio.myjio (pid 2926) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.jio.myjio/com.madme.mobile.sdk.service.LSJobService2<=Proc{1089:system/1000}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   prcl   TRNB   15092: com.google.android.gms (pid 321) service
+01-29 13:42:16.282  1089  3314 I ActivityManager:                        com.google.android.gms/.ads.identifier.service.AdvertisingIdService<=Proc{2926:com.jio.myjio/u0a87}
+01-29 13:42:16.282  1089  3314 I ActivityManager:   svc    SVC     7272: com.qti.diagservices (pid 2886) started-services
+01-29 13:42:16.282  1089  3314 I ActivityManager:             576453: TOTAL (   45,232K memtrack)
+01-29 13:42:16.282  1089  3314 I ActivityManager:   MemInfo:   103,060K slab,     5,916K shmem,    16,576K vm alloc,    22,696K page tables    14,384K kernel stack
+01-29 13:42:16.282  1089  3314 I ActivityManager:                  228K buffers,   100,828K cached,    85,960K mapped,    78,024K free
+01-29 13:42:16.282  1089  3314 I ActivityManager:   ZRAM:    81,192K RAM,   786,428K swap total,   517,124K swap free
+01-29 13:42:16.282  1089  3314 I ActivityManager:   Free RAM:   124,728K
+01-29 13:42:16.282  1089  3314 I ActivityManager:        ION:    58,932K
+01-29 13:42:16.282  1089  3314 I ActivityManager:   Used RAM:   766,409K
+01-29 13:42:16.282  1089  3314 I ActivityManager:   Lost RAM:   145,791K
+01-29 13:42:16.522  1089  3314 I DropBoxManagerService: add tag=system_server_lowmem isTagEnabled=true flags=0x2
+01-29 13:42:16.543  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+01-29 13:42:18.861  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10113; state: DISABLED
+01-29 13:42:18.863  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10113; state: ENABLED
+01-29 13:42:18.909  1089  1190 I ActivityManager: Start proc 3317:com.google.android.partnersetup/u0a113 for service {com.google.android.partnersetup/com.google.android.partnersetup.ClientIdJobService}
+01-29 13:42:19.412  1089  4042 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10127; state: DISABLED
+01-29 13:42:19.413  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10127; state: ENABLED
+01-29 13:42:19.444  1089  1190 I ActivityManager: Start proc 3344:com.google.process.gservices/u0a127 for content provider {com.google.android.gsf/com.google.android.gsf.gservices.GservicesProvider}
+01-29 13:42:19.860  1089  4042 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10127; state: DISABLED
+01-29 13:42:19.861  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10127; state: ENABLED
+01-29 13:42:19.888  1089  1190 I ActivityManager: Start proc 3368:com.google.process.gapps/u0a127 for content provider {com.google.android.gsf/com.google.android.gsf.settings.GoogleSettingsProvider}
+01-29 13:42:24.355  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:42:26.959  1089  2461 I ActivityManager: Process com.google.process.gapps (pid 3368) has died: cch+15 CEM 
+01-29 13:42:26.994  1089  1150 I ActivityManager: Process com.google.android.partnersetup (pid 3317) has died: cch+5 CEM 
+01-29 13:42:27.023  1089  2461 I ActivityManager: Process com.google.process.gservices (pid 3344) has died: prev LAST
+01-29 13:43:25.049  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:44:25.691  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:45:26.358  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:46:27.011  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:47:27.625  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:48:28.282  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:49:15.672  1089  1188 I UsageStatsService: User[0] Flushing usage stats to disk
+01-29 13:49:28.979  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:50:29.610  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:51:30.246  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:52:30.914  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:53:31.603  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:54:32.168  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:55:32.954  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:56:33.592  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:57:34.225  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:58:31.431  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 13:58:35.032  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 13:59:35.703  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:00:36.341  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:01:37.041  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:02:37.828  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:03:38.398  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:04:39.116  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:05:39.733  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:06:40.345  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:06:57.535  1089  1177 W Looper  : Slow dispatch took 110ms android.fg h=android.os.Handler c=com.android.server.utils.quota.-$$Lambda$QuotaTracker$QGqhRiGVlazdG76r-Ich6VZnho4@a934b76 m=0
+01-29 14:07:40.993  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:08:41.698  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:09:15.883  1089  1188 I UsageStatsService: User[0] Flushing usage stats to disk
+01-29 14:09:42.365  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:10:43.074  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:11:43.703  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:12:44.368  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:12:45.959  1089  2719 I ActivityManager: Process com.qti.diagservices (pid 2886) has died: cch+5 SVC 
+01-29 14:12:45.992  1089  2719 W ActivityManager: Scheduling restart of crashed service com.qti.diagservices/.QTIDiagServices in 1000ms for start-requested
+01-29 14:12:47.025  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 1000; state: DISABLED
+01-29 14:12:47.064  1089  1190 W ActivityManager: Slow operation: 70ms so far, now at startProcess: returned from zygote!
+01-29 14:12:47.064  1089  1190 W ActivityManager: Slow operation: 71ms so far, now at startProcess: done updating battery stats
+01-29 14:12:47.064  1089  1190 W ActivityManager: Slow operation: 71ms so far, now at startProcess: building log message
+01-29 14:12:47.064  1089  1190 I ActivityManager: Start proc 1346:com.qti.diagservices/1000 for service {com.qti.diagservices/com.qti.diagservices.QTIDiagServices}
+01-29 14:12:47.065  1089  1190 W ActivityManager: Slow operation: 71ms so far, now at startProcess: starting to update pids map
+01-29 14:12:47.065  1089  1190 W ActivityManager: Slow operation: 72ms so far, now at startProcess: done updating pids map
+01-29 14:12:47.601  1089  1333 I ActivityManager: Low on memory:
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??   29449: surfaceflinger (   19,096K memtrack) (pid 504) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??   18286: android.hardware.camera.provider@2.4-service (pid 482) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??   14540: zygote (pid 396) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??   11267: android.hardware.audio.service (pid 480) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    8238: mediaserver (pid 757) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    8153: webview_zygote (pid 1612) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    6507: qcrild (pid 987) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    5392: media.extractor (pid 744) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    5303: audioserver (pid 502) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    3605: cameraserver (pid 723) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    3578: media.swcodec (pid 882) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    3175: netmgrd (pid 846) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2952: init (pid 1) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2886: android.hardware.graphics.composer@2.1-service (pid 484) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2485: media.codec (pid 787) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2402: netd (pid 395) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2288: android.hardware.gnss@2.1-service-qti (pid 483) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2262: media.metrics (pid 752) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    2119: cnd (pid 790) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1960: vendor.qti.hardware.perf@2.2-service (pid 495) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1948: ims_rtp_daemon (pid 1075) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1858: imsdatadaemon (pid 939) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1812: android.hardware.sensors@1.0-service (pid 491) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1732: imsrcsd (pid 1006) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1720: ueventd (pid 280) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1642: installd (pid 734) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1610: statsd (pid 394) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1589: logd (pid 294) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1578: android.hardware.bluetooth@1.0-service-qti-lazy (pid 3020) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1524: lowi-server (pid 909) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1493: vold (pid 331) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1465: init (pid 277) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1395: xtra-daemon (pid 910) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1342: thermal-engine (pid 2036) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1294: android.hardware.wifi@1.0-service (pid 492) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1250: vendor.qti.hardware.display.allocator-service (pid 493) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1176: storaged (pid 767) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1160: wificond (pid 772) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1155: qseecomd (pid 344) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1134: sensors.qti (pid 522) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1086: gpuservice (pid 503) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1081: qti (pid 1022) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1076: perfservice (pid 776) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1073: keystore (pid 737) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??    1035: adbd (pid 2087) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     979: hwservicemanager (pid 297) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     972: gatekeeperd (pid 890) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     963: drmserver (pid 724) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     957: servicemanager (pid 296) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     956: imsqmidaemon (pid 805) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     946: android.hardware.power-service (pid 490) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     909: android.hardware.keymaster@4.1-service-qti (pid 306) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     900: android.hardware.health@2.1-service (pid 487) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     871: incidentd (pid 732) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     870: vendor.qti.hardware.vibrator.service (pid 496) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     866: pm-service (pid 501) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     859: android.system.suspend@1.0-service (pid 356) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     848: android.hardware.lights-service.qti (pid 488) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     845: android.hardware.gatekeeper@1.0-service-qti (pid 358) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     843: adsprpcd (pid 869) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     836: lmkd (pid 295) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     830: vendor.qti.hardware.qseecom@1.0-service (pid 309) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     818: port-bridge (pid 848) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     813: dspservice (pid 494) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     806: time_daemon (pid 389) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     789: loc_launcher (pid 886) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     783: vndservicemanager (pid 298) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     782: android.hardware.memtrack@1.0-service (pid 489) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     776: android.hardware.atrace@1.0-service (pid 357) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     773: pm-proxy (pid 617) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     768: rmt_storage (pid 506) native
+01-29 14:12:47.601  1089  1333 I ActivityManager:   ntv   ??     736: wcnss_service (pid 719) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??     663: tftp_server (pid 507) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??     584: android.hidl.allocator@1.0-service (pid 481) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??     582: qrtr-ns (pid 618) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??     575: traced (pid 626) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??     514: iptables-restore (pid 433) native
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ntv   ??    2250: (Other native)
+01-29 14:12:47.602  1089  1333 I ActivityManager:   sys    PER    86071: system (    5,472K memtrack) (pid 1089) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   BFGS   64551: com.android.systemui (   14,912K memtrack) (pid 1482) pers-top-ui
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER    17705: com.jio.adc.embedded (pid 2275) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER    14441: com.android.phone (pid 1748) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER    13916: com.redbend.client (pid 2255) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER    10425: com.qualcomm.location (pid 2263) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER     6218: org.codeaurora.ims (pid 1727) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER     5237: .qtidataservices (pid 1680) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER     4573: com.qualcomm.qti.telephonyservice (pid 1705) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   pers   PER     4430: .dataservices (pid 1632) fixed
+01-29 14:12:47.602  1089  1333 I ActivityManager:   psvc   PER     8829: com.android.bluetooth (pid 811) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.android.bluetooth/.gatt.GattService<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   psvc   PER     8590: com.android.providers.media.module (pid 2212) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   fg     BFGS   18592: com.android.launcher3 (    1,380K memtrack) (pid 2132) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.android.launcher3/com.android.quickstep.TouchInteractionService<=Proc{1482:com.android.systemui/u0a154}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   vis    BFGS   46301: com.google.android.gms.persistent (pid 1237) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.google.android.gms/.chimera.PersistentBoundBrokerService<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   vis    BFGS   21477: com.android.systemui:screenshot (    4,372K memtrack) (pid 3492) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.android.systemui/.screenshot.TakeScreenshotService<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   vis    BFGS    5043: com.google.android.ext.services (pid 1790) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.google.android.ext.services/android.ext.services.notification.Assistant<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   vis    IMPF    4440: com.qualcomm.qcrilmsgtunnel (pid 2499) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService<=Proc{1748:com.android.phone/1001}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   prcp   IMPB   21004: com.google.android.inputmethod.latin (pid 1577) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   prcl   TRNB   28507: com.jio.myjio (pid 2926) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.jio.myjio/com.madme.mobile.sdk.service.LSJobService<=Proc{1089:system/1000}
+01-29 14:12:47.602  1089  1333 I ActivityManager:   prcl   TRNB   17476: com.google.android.gms (pid 321) service
+01-29 14:12:47.602  1089  1333 I ActivityManager:                        com.google.android.gms/.ads.identifier.service.AdvertisingIdService<=Proc{2926:com.jio.myjio/u0a87}
+01-29 14:12:47.602  1089  1333 I ActivityManager:             608163: TOTAL (   45,232K memtrack)
+01-29 14:12:47.602  1089  1333 I ActivityManager:   MemInfo:   102,796K slab,     6,032K shmem,    16,576K vm alloc,    22,304K page tables    14,216K kernel stack
+01-29 14:12:47.602  1089  1333 I ActivityManager:                1,008K buffers,   108,688K cached,    87,124K mapped,    40,064K free
+01-29 14:12:47.602  1089  1333 I ActivityManager:   ZRAM:    81,500K RAM,   786,428K swap total,   516,200K swap free
+01-29 14:12:47.602  1089  1333 I ActivityManager:   Free RAM:    94,440K
+01-29 14:12:47.602  1089  1333 I ActivityManager:        ION:    58,932K
+01-29 14:12:47.602  1089  1333 I ActivityManager:   Used RAM:   797,215K
+01-29 14:12:47.602  1089  1333 I ActivityManager:   Lost RAM:   145,901K
+01-29 14:12:47.859  1089  1333 I DropBoxManagerService: add tag=system_server_lowmem isTagEnabled=true flags=0x2
+01-29 14:12:47.915  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+01-29 14:13:44.491  1089  1089 W Looper  : Slow dispatch took 119ms main h=com.android.server.AlarmManagerService$AlarmHandler c=com.android.server.-$$Lambda$AlarmManagerService$3$jIkPWjqS66vG6aFVQoHxR2w4HPE@d6a19c9 m=0
+01-29 14:13:45.207  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:14:45.915  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:15:46.640  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:16:47.415  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:17:48.085  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:18:48.720  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:19:49.459  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:20:50.120  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:21:50.817  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:22:51.473  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:23:52.134  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:24:52.734  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:25:53.389  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:26:54.062  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:27:54.712  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:28:31.303  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:28:55.411  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:29:16.137  1089  1188 I UsageStatsService: User[0] Flushing usage stats to disk
+01-29 14:29:56.106  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:30:56.727  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:31:57.442  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:32:47.370  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+01-29 14:32:47.371  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_DISCONNECTED flg=0x4000010 (has extras) } to com.jio.myjio/com.inn.passivesdk.receiver.ServiceStarterReceiver
+01-29 14:32:47.619  1089  1089 W Looper  : Slow dispatch took 252ms main h=android.os.Handler c=com.android.server.-$$Lambda$BatteryService$D1kwd7L7yyqN5niz3KWkTepVmUk@62fec33 m=0
+01-29 14:32:47.620  1089  1089 W Looper  : Slow delivery took 251ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@ed14bf0 m=0
+01-29 14:32:47.620  1089  1215 I PowerManagerService: Waking up from Dozing (uid=1000, reason=WAKE_REASON_PLUGGED_IN, details=android.server.power:PLUGGED:false)...
+01-29 14:32:47.653  1089  1215 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+01-29 14:32:47.670  1089  1215 V DisplayPowerController: Brightness [0.52755904] reason changing to: 'manual', previous reason: 'screen_off'.
+01-29 14:32:47.690  1089  1180 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
+01-29 14:32:47.773  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:32:47.868  1089  1089 W Looper  : Slow dispatch took 122ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=4
+01-29 14:32:48.032  1089  1205 I BatteryStatsImpl: Resetting battery stats: level=100 status=5 dischargeLevel=100 lowAmount=0 highAmount=0
+01-29 14:32:48.120  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:32:48.332  1089  1089 W Looper  : Drained
+01-29 14:32:48.333  1089  1089 W Looper  : Slow dispatch took 455ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@9acf7d3 m=0
+01-29 14:32:48.333  1089  1089 W Looper  : Slow delivery took 459ms main h=android.hardware.display.DisplayManagerGlobal$DisplayListenerDelegate c=null m=2
+01-29 14:32:48.335  1089  1089 W Looper  : Drained
+01-29 14:32:48.489  1089  1215 I DisplayPowerController: Unblocked screen on after 836 ms
+01-29 14:32:48.490  1089  1215 W PowerManagerService: Screen on took 870 ms
+01-29 14:32:48.490  1089  1215 I DreamManagerService: Gently waking up from dream.
+01-29 14:32:48.491  1089  1177 I DreamManagerService: Performing gentle wake from dream.
+01-29 14:32:48.559  1089  2719 I DreamManagerService: Leaving dreamland.
+01-29 14:32:48.582  1089  1177 I DreamManagerService: Performing gentle wake from dream.
+01-29 14:32:48.583  1089  1177 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0, reason='finished self'(from 'requested stopDream')
+01-29 14:32:48.602  1089  1089 W Looper  : Slow dispatch took 234ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@ffe3ef0 m=0
+01-29 14:32:48.621  1089  1089 W Looper  : Slow delivery took 200ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@40e1c69 m=0
+01-29 14:32:49.125  1089  1089 W Looper  : Slow dispatch took 315ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=0
+01-29 14:32:49.199  1089  1089 W Looper  : Drained
+01-29 14:32:49.776  1089  1310 I ActivityManager: Process com.google.android.gms (pid 321) has died: cch+15 CEM 
+01-29 14:32:49.801  1089  1310 W ActivityManager: Scheduling restart of crashed service com.google.android.gms/.ads.identifier.service.AdvertisingIdService in 1000ms for connection
+01-29 14:32:50.214  1089  2461 I ActivityManager: Process com.jio.myjio (pid 2926) has died: fg  RCVR
+01-29 14:32:50.355  1089  1177 D UsbDeviceManager: Clear notification
+01-29 14:32:50.393  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10079; state: DISABLED
+01-29 14:32:50.395  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10079; state: ENABLED
+01-29 14:32:50.476  1089  1190 W ActivityManager: Slow operation: 86ms so far, now at startProcess: returned from zygote!
+01-29 14:32:50.476  1089  1190 W ActivityManager: Slow operation: 86ms so far, now at startProcess: done updating battery stats
+01-29 14:32:50.477  1089  1190 W ActivityManager: Slow operation: 87ms so far, now at startProcess: building log message
+01-29 14:32:50.477  1089  1190 I ActivityManager: Start proc 2647:android.process.media/u0a79 for broadcast {com.android.mtp/com.android.mtp.MtpReceiver}
+01-29 14:32:50.477  1089  1190 W ActivityManager: Slow operation: 87ms so far, now at startProcess: starting to update pids map
+01-29 14:32:50.478  1089  1190 W ActivityManager: Slow operation: 88ms so far, now at startProcess: done updating pids map
+01-29 14:32:52.067  1089  2645 I ActivityManager: Low on memory:
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??   30665: surfaceflinger (   19,096K memtrack) (pid 504) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??   18286: android.hardware.camera.provider@2.4-service (pid 482) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??   14254: zygote (pid 396) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??   11589: android.hardware.audio.service (pid 480) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    8226: mediaserver (pid 757) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    7560: webview_zygote (pid 1612) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    6342: qcrild (pid 987) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    5429: audioserver (pid 502) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    5392: media.extractor (pid 744) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    3574: media.swcodec (pid 882) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    3534: cameraserver (pid 723) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    3359: android.hardware.graphics.composer@2.1-service (pid 484) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    3175: netmgrd (pid 846) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2996: init (pid 1) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2485: media.codec (pid 787) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2470: android.hardware.gnss@2.1-service-qti (pid 483) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2454: netd (pid 395) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2258: media.metrics (pid 752) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2119: cnd (pid 790) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1984: vendor.qti.hardware.perf@2.2-service (pid 495) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1948: ims_rtp_daemon (pid 1075) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1936: android.hardware.sensors@1.0-service (pid 491) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1858: imsdatadaemon (pid 939) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1732: imsrcsd (pid 1006) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1720: ueventd (pid 280) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1642: installd (pid 734) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1586: statsd (pid 394) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1578: android.hardware.bluetooth@1.0-service-qti-lazy (pid 3020) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1556: logd (pid 294) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1520: lowi-server (pid 909) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1487: vold (pid 331) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1465: init (pid 277) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1395: xtra-daemon (pid 910) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1342: thermal-engine (pid 2036) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1254: android.hardware.wifi@1.0-service (pid 492) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1250: vendor.qti.hardware.display.allocator-service (pid 493) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1243: storaged (pid 767) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1156: wificond (pid 772) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1155: qseecomd (pid 344) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1134: sensors.qti (pid 522) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1086: gpuservice (pid 503) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1083: adbd (pid 2087) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1081: qti (pid 1022) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1077: perfservice (pid 776) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1075: keystore (pid 737) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    1010: android.hardware.power-service (pid 490) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     979: hwservicemanager (pid 297) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     972: gatekeeperd (pid 890) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     963: drmserver (pid 724) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     957: servicemanager (pid 296) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     956: imsqmidaemon (pid 805) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     901: android.hardware.keymaster@4.1-service-qti (pid 306) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     894: android.hardware.health@2.1-service (pid 487) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     871: incidentd (pid 732) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     870: vendor.qti.hardware.vibrator.service (pid 496) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     866: pm-service (pid 501) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     861: android.system.suspend@1.0-service (pid 356) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     849: android.hardware.lights-service.qti (pid 488) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     845: android.hardware.gatekeeper@1.0-service-qti (pid 358) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     843: adsprpcd (pid 869) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     837: lmkd (pid 295) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     830: vendor.qti.hardware.qseecom@1.0-service (pid 309) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     818: port-bridge (pid 848) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     813: dspservice (pid 494) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     807: time_daemon (pid 389) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     789: loc_launcher (pid 886) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     783: vndservicemanager (pid 298) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     782: android.hardware.memtrack@1.0-service (pid 489) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     776: android.hardware.atrace@1.0-service (pid 357) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     773: pm-proxy (pid 617) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     768: rmt_storage (pid 506) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     736: wcnss_service (pid 719) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     663: tftp_server (pid 507) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     585: android.hidl.allocator@1.0-service (pid 481) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     582: qrtr-ns (pid 618) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??     575: traced (pid 626) native
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ntv   ??    2704: (Other native)
+01-29 14:32:52.068  1089  2645 I ActivityManager:   sys    PER    82626: system (    5,472K memtrack) (pid 1089) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PERU   62929: com.android.systemui (   14,912K memtrack) (pid 1482) pers-top-ui
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER    13696: com.android.phone (pid 1748) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER    12350: com.redbend.client (pid 2255) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER    11402: com.jio.adc.embedded (pid 2275) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER    10373: com.qualcomm.location (pid 2263) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER     5559: org.codeaurora.ims (pid 1727) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER     5200: .qtidataservices (pid 1680) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER     4528: com.qualcomm.qti.telephonyservice (pid 1705) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   pers   PER     4393: .dataservices (pid 1632) fixed
+01-29 14:32:52.068  1089  2645 I ActivityManager:   psvc   PER     9578: com.android.bluetooth (pid 811) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.android.bluetooth/.gatt.GattService<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   psvc   PER     8426: com.android.providers.media.module (pid 2212) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   fg     BFGS   18434: com.android.launcher3 (    1,380K memtrack) (pid 2132) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.android.launcher3/com.android.quickstep.TouchInteractionService<=Proc{1482:com.android.systemui/u0a154}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   vis    BFGS   41179: com.google.android.gms.persistent (pid 1237) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.google.android.gms/.chimera.PersistentBoundBrokerService<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   vis    BFGS   21405: com.android.systemui:screenshot (    4,372K memtrack) (pid 3492) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.android.systemui/.screenshot.TakeScreenshotService<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   vis    BFGS    5148: com.google.android.ext.services (pid 1790) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.google.android.ext.services/android.ext.services.notification.Assistant<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   vis    IMPF    4394: com.qualcomm.qcrilmsgtunnel (pid 2499) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService<=Proc{1748:com.android.phone/1001}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   prcp   IMPB   20795: com.google.android.inputmethod.latin (pid 1577) service
+01-29 14:32:52.068  1089  2645 I ActivityManager:                        com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME<=Proc{1089:system/1000}
+01-29 14:32:52.068  1089  2645 I ActivityManager:   svc    SVC     6484: com.qti.diagservices (pid 1346) started-services
+01-29 14:32:52.068  1089  2645 I ActivityManager:             550667: TOTAL (   45,232K memtrack)
+01-29 14:32:52.068  1089  2645 I ActivityManager:   MemInfo:   102,772K slab,     6,020K shmem,    16,576K vm alloc,    21,464K page tables    14,016K kernel stack
+01-29 14:32:52.068  1089  2645 I ActivityManager:                  448K buffers,   127,136K cached,    81,864K mapped,    58,256K free
+01-29 14:32:52.068  1089  2645 I ActivityManager:   ZRAM:    81,452K RAM,   786,428K swap total,   527,644K swap free
+01-29 14:32:52.068  1089  2645 I ActivityManager:   Free RAM:   135,860K
+01-29 14:32:52.068  1089  2645 I ActivityManager:        ION:    58,932K
+01-29 14:32:52.068  1089  2645 I ActivityManager:   Used RAM:   738,563K
+01-29 14:32:52.068  1089  2645 I ActivityManager:   Lost RAM:   151,012K
+01-29 14:32:52.217  1089  2645 I DropBoxManagerService: add tag=system_server_lowmem isTagEnabled=true flags=0x2
+01-29 14:32:52.245  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+01-29 14:32:52.662  1089  2461 I ActivityManager: Process android.process.media (pid 2647) has died: cch+5 CEM 
+01-29 14:32:58.869  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:33:12.662  1089  1215 V DisplayPowerController: Brightness [0.05] reason changing to: 'manual [ dim ]', previous reason: 'manual'.
+01-29 14:33:14.628  1089  1215 I PowerManagerService: Going to sleep due to timeout (uid 1000)...
+01-29 14:33:14.694  1089  1215 I DisplayPowerController: Blocking screen off
+01-29 14:33:14.720  1089  1215 I DisplayPowerController: Unblocked screen off after 26 ms
+01-29 14:33:14.914  1089  1215 V DisplayPowerController: Brightness [-1.0] reason changing to: 'screen_off', previous reason: 'manual [ dim ]'.
+01-29 14:33:14.923  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:33:14.945  1089  1180 I DisplayManagerService: Display device changed state: "Built-in Screen", OFF
+01-29 14:33:15.211  1089  1215 I DreamManagerService: Entering dreamland.
+01-29 14:33:15.213  1089  1215 I PowerManagerService: Dozing...
+01-29 14:33:15.222  1089  1177 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+01-29 14:33:48.710  1089  1215 I PowerManagerService: Waking up from Dozing (uid=1000, reason=WAKE_REASON_PLUGGED_IN, details=android.server.power:PLUGGED:true)...
+01-29 14:33:48.718  1089  1179 I EntropyMixer: Writing entropy...
+01-29 14:33:48.725  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+01-29 14:33:48.725  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x4000010 (has extras) } to com.google.android.gms/.gcm.nts.SchedulerReceiver
+01-29 14:33:48.726  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.ACTION_POWER_CONNECTED flg=0x4000010 (has extras) } to com.jio.myjio/com.inn.passivesdk.receiver.ServiceStarterReceiver
+01-29 14:33:48.915  1089  1215 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+01-29 14:33:48.927  1089  1089 W Looper  : Slow dispatch took 188ms main h=com.android.server.power.Notifier$NotifierHandler c=com.android.server.power.Notifier$1@dd087e8 m=0
+01-29 14:33:48.928  1089  1089 W Looper  : Slow delivery took 214ms main h=android.os.Handler c=null m=3030
+01-29 14:33:48.929  1089  1178 W Looper  : Slow dispatch took 177ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=31
+01-29 14:33:48.929  1089  1215 V DisplayPowerController: Brightness [0.52755904] reason changing to: 'manual', previous reason: 'screen_off'.
+01-29 14:33:48.935  1089  1180 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
+01-29 14:33:49.132  1089  1215 I DisplayPowerController: Unblocked screen on after 217 ms
+01-29 14:33:49.157  1089  1177 D UsbDeviceManager: push notification:USB file transfer turned on
+01-29 14:33:49.162  1089  1215 W PowerManagerService: Screen on took 452 ms
+01-29 14:33:49.162  1089  1215 I DreamManagerService: Gently waking up from dream.
+01-29 14:33:49.179  1089  1177 I DreamManagerService: Performing gentle wake from dream.
+01-29 14:33:49.189  1089  2130 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10127; state: DISABLED
+01-29 14:33:49.190  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10127; state: ENABLED
+01-29 14:33:49.224  1089  1241 I DreamManagerService: Leaving dreamland.
+01-29 14:33:49.225  1089  1177 I DreamManagerService: Performing gentle wake from dream.
+01-29 14:33:49.225  1089  1177 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0, reason='finished self'(from 'requested stopDream')
+01-29 14:33:49.266  1089  1190 W ActivityManager: Slow operation: 78ms so far, now at startProcess: returned from zygote!
+01-29 14:33:49.266  1089  1190 W ActivityManager: Slow operation: 79ms so far, now at startProcess: done updating battery stats
+01-29 14:33:49.267  1089  1190 W ActivityManager: Slow operation: 79ms so far, now at startProcess: building log message
+01-29 14:33:49.267  1089  1190 I ActivityManager: Start proc 2711:com.google.android.gms/u0a127 for service {com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService}
+01-29 14:33:49.267  1089  1190 W ActivityManager: Slow operation: 79ms so far, now at startProcess: starting to update pids map
+01-29 14:33:49.267  1089  1190 W ActivityManager: Slow operation: 80ms so far, now at startProcess: done updating pids map
+01-29 14:33:49.470  1089  1089 W Looper  : Slow dispatch took 446ms main h=com.android.server.power.Notifier$NotifierHandler c=null m=6
+01-29 14:33:49.529  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:33:49.767  1089  1089 W Looper  : Slow dispatch took 165ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@41a00ec m=0
+01-29 14:33:49.804  1089  1816 W ActivityManager: Slow operation: 80ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+01-29 14:33:49.816  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:33:50.113  1089  1089 W Looper  : Slow dispatch took 299ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@309f1ee m=0
+01-29 14:33:50.119  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10150; state: DISABLED
+01-29 14:33:50.120  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10150; state: ENABLED
+01-29 14:33:50.170  1089  1089 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+01-29 14:33:50.178  1089  1190 W ActivityManager: Slow operation: 60ms so far, now at startProcess: returned from zygote!
+01-29 14:33:50.178  1089  1190 W ActivityManager: Slow operation: 61ms so far, now at startProcess: done updating battery stats
+01-29 14:33:50.180  1089  1190 W ActivityManager: Slow operation: 62ms so far, now at startProcess: building log message
+01-29 14:33:50.180  1089  1190 I ActivityManager: Start proc 2743:com.android.cellbroadcastreceiver/u0a150 for broadcast {com.android.cellbroadcastreceiver/com.android.cellbroadcastreceiver.CellBroadcastReceiver}
+01-29 14:33:50.180  1089  1190 W ActivityManager: Slow operation: 62ms so far, now at startProcess: starting to update pids map
+01-29 14:33:50.181  1089  1190 W ActivityManager: Slow operation: 64ms so far, now at startProcess: done updating pids map
+01-29 14:33:50.234  1089  1089 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+01-29 14:33:50.524  1089  1089 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10087; state: DISABLED
+01-29 14:33:50.524  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10087; state: DISABLED
+01-29 14:33:50.543  1089  1089 W Looper  : Slow dispatch took 168ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=0
+01-29 14:33:50.567  1089  1089 W Looper  : Drained
+01-29 14:33:50.599  1089  1190 W ActivityManager: Slow operation: 77ms so far, now at startProcess: returned from zygote!
+01-29 14:33:50.646  1089  1190 W ActivityManager: Slow operation: 124ms so far, now at startProcess: done updating battery stats
+01-29 14:33:50.646  1089  1190 W ActivityManager: Slow operation: 124ms so far, now at startProcess: building log message
+01-29 14:33:50.646  1089  1190 I ActivityManager: Start proc 2774:com.jio.myjio/u0a87 for service {com.jio.myjio/com.madme.mobile.sdk.service.LSJobService}
+01-29 14:33:50.647  1089  1190 W ActivityManager: Slow operation: 124ms so far, now at startProcess: starting to update pids map
+01-29 14:33:50.647  1089  1190 W ActivityManager: Slow operation: 125ms so far, now at startProcess: done updating pids map
+--------- beginning of main
+01-29 14:33:50.730   882  2776 D SimpleC2Component: Using output block pool with poolID 94 => got 94 - 0
+01-29 14:33:50.741   757  2771 E FMQ     : grantorIdx must be less than 3
+01-29 14:33:50.742   882  1030 E FMQ     : grantorIdx must be less than 3
+01-29 14:33:50.768  2774  2774 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-29 14:33:50.769  1482  1482 I FalsingManager: dX: -201.71983 dY: -11.992065 xV: -6.697794 yV: -0.2862309
+01-29 14:33:50.769  1482  1482 I FalsingManager: Percent of gesture in proximity: 0.0
+01-29 14:33:50.770   882  2776 E FMQ     : grantorIdx must be less than 3
+01-29 14:33:50.771   757  3734 E FMQ     : grantorIdx must be less than 3
+01-29 14:33:50.782   757  2771 D CCodecBuffers: [c2.android.vorbis.decoder#515:Output[N]] popFromStashAndRegister: output format changed to AMessage(what = 0x00000000) = {
+01-29 14:33:50.782   757  2771 D CCodecBuffers:   int32_t channel-count = 1
+01-29 14:33:50.782   757  2771 D CCodecBuffers:   string mime = "audio/raw"
+01-29 14:33:50.782   757  2771 D CCodecBuffers:   int32_t sample-rate = 44100
+01-29 14:33:50.782   757  2771 D CCodecBuffers: }
+01-29 14:33:50.784   757  2770 I ExtendedNuUtils: Both src and dst missing for bit-width
+01-29 14:33:50.784   757  2770 I ExtendedNuUtils: Overriding durationUs: with 64 bit src value 1567000
+01-29 14:33:50.784   757  2770 I ExtendedNuUtils: Both src and dst missing for channel-mask
+01-29 14:33:50.796   480   517 D audio_hw_primary: adev_get_parameters:vr_audio_mode_on
+01-29 14:33:50.797   502  1633 I AudioPolicyManagerCustom: VR mode is 0, switch to primary output if request is for fast|raw
+01-29 14:33:50.799   502  1633 D AudioFlinger: Client defaulted notificationFrames to 11025 for frameCount 22050
+01-29 14:33:50.808   502  1633 D AF::TrackHandle: OpPlayAudio: track:100 usage:13 not muted
+01-29 14:33:50.809  1577  1577 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():57 onReceive() : Action = android.intent.action.SCREEN_ON
+01-29 14:33:50.810  1577  1577 I DeviceStatusMonitor: DeviceStatusMonitor.updateCountryInfo():117 updateCountryInfo(), notifyAnyway = false
+01-29 14:33:50.843  1089  1148 I chatty  : uid=1000(system) Binder:1089_1 expire 20 lines
+01-29 14:33:50.844  1089  2130 I chatty  : uid=1000(system) Binder:1089_A expire 18 lines
+01-29 14:33:50.852   480  1576 D audio_hw_primary: start_output_stream: enter: stream(0xafa69800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-29 14:33:50.856   480  1576 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-29 14:33:50.856   480  1576 I msm8974_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+01-29 14:33:50.856   480  1576 I msm8974_platform: platform_check_and_set_codec_backend_cfg: new_snd_devices[0] is 2
+01-29 14:33:50.856   480  1576 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+01-29 14:33:50.864   480  1576 D msm8974_platform: platform_check_codec_backend_cfg:becf: updated afe: bitwidth 16, samplerate 48000 channels 2,backend_idx 0 usecase = 1 device (speaker)
+01-29 14:33:50.864   480  1576 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000
+01-29 14:33:50.864   480  1576 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+01-29 14:33:50.864   480  1576 D audio_hw_primary: check_usecases_codec_backend:becf: (85) check_usecases curr device: speaker, usecase device: backends match 0
+01-29 14:33:50.864   480  1576 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+01-29 14:33:50.864   480  1576 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-29 14:33:50.865   480  1576 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+01-29 14:33:50.865   480  1576 D msm8974_platform: platform_get_island_cfg_on_device:island cfg status on snd_device = (speaker 0)
+01-29 14:33:50.865   480  1576 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0x2 of type 0 for Event 1, with Raise=0
+01-29 14:33:50.866   480  1576 D audio_route: Apply path: speaker
+01-29 14:33:50.868   480  1576 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_info->id 1 of type 0 for Event 3, with Raise=0
+01-29 14:33:50.868   480  1576 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+01-29 14:33:50.870   480  1576 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 14, sample_rate 48000, snd_device_be_idx 43
+01-29 14:33:50.874   480  1576 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 14, path = 0, app id = 0x11131, sample rate = 48000, use_case = 0,buffer_idx_w_path =0, afe_sample_rate = 48000, cal_mode = 1, offset_index = 0
+01-29 14:33:50.875   480  1576 D ACDB-LOADER: ACDB -> send_asm_topology
+01-29 14:33:50.875   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+01-29 14:33:50.875  1482  1482 D KeyguardUpdateMonitor: received broadcast android.intent.action.SERVICE_STATE
+01-29 14:33:50.877  1482  1482 V KeyguardUpdateMonitor: action android.intent.action.SERVICE_STATE serviceState={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=2450, duplexMode()=1, mCellBandwidths=[], mOperatorAlphaLong=, mOperatorAlphaShort=, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=0(Unknown), getRilDataRadioTechnology=14(LTE), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, isUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificInfo=null nrState=NONE rRplmn=}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=LTE rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=CellIdentityLte:{ mCi=10032 mPci=240 mTac=126 mEarfcn=2450 mBands=[] mBandwidth=2147483647 mMcc=405 mMnc=854 mAlphaLong=JIO 4G mAlphaShort=JIO 4G mAdditionalPlmns={} mCsgInfo=null} voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 20 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false LteVopsSupportInfo :  mVopsSupport = 3 mEmcBearerSupport = 3 mIsUsingCarrierAggregation = false } nrState=NONE rRplmn=405854}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=, mOperatorAlphaShortRaw=, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false} subId=-1
+01-29 14:33:50.882   480  1576 D ACDB-LOADER: ACDB -> send_adm_topology
+01-29 14:33:50.882   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+01-29 14:33:50.882   480  1576 D ACDB-LOADER: ACDB -> send_audtable
+01-29 14:33:50.883   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+01-29 14:33:50.883   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+01-29 14:33:50.883   480  1576 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL cal_type[11] acdb_id[14] app_type[69937]
+01-29 14:33:50.883   480  1576 D ACDB-LOADER: ACDB -> send_audvoltable
+01-29 14:33:50.883   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE_SIZE
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> send_audstrmtable
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> send_afe_topology
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 14, Topology Id 1025e
+01-29 14:33:50.884   480  1576 D ACDB-LOADER: ACDB -> send_afe_cal
+01-29 14:33:50.885   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+01-29 14:33:50.885   480  1576 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+01-29 14:33:50.885   480  1576 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL cal_type[16] acdb_id[14]
+01-29 14:33:50.885   480  1576 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 14 path = 0
+01-29 14:33:50.885   480  1576 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+01-29 14:33:50.885   480  1576 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-29 14:33:50.885   480  1576 D audio_route: Apply path: low-latency-playback
+01-29 14:33:50.896  2711  2711 I chatty  : uid=10127(com.google.android.gms) expire 5 lines
+01-29 14:33:50.913   480  1576 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map12
+01-29 14:33:50.913   480  1576 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+01-29 14:33:50.915   480  1576 D audio_hw_primary: start_output_stream: exit
+01-29 14:33:50.922   757  2968 E MediaPlayerService: Couldn't open fd for content://settings/system/notification_sound
+01-29 14:33:50.922  1482  2773 E MediaPlayerNative: Unable to create media player
+01-29 14:33:50.934  1482  2773 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+01-29 14:33:50.934  1482  2773 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+01-29 14:33:50.947   757  2769 D AudioTrack: getTimestamp_l(71): device stall time corrected using current time 50687877025558
+01-29 14:33:50.947  1482  1482 D KeyguardUpdateMonitor: handleServiceStateChange(subId=-1, serviceState={mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=2450, duplexMode()=1, mCellBandwidths=[], mOperatorAlphaLong=, mOperatorAlphaShort=, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=0(Unknown), getRilDataRadioTechnology=14(LTE), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, isUsingCarrierAggregation=false, mLteEarfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=-1 mDefaultRoamingIndicator=-1} dataSpecificInfo=null nrState=NONE rRplmn=}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=LTE rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=CellIdentityLte:{ mCi=10032 mPci=240 mTac=126 mEarfcn=2450 mBands=[] mBandwidth=2147483647 mMcc=405 mMnc=854 mAlphaLong=JIO 4G mAlphaShort=JIO 4G mAdditionalPlmns={} mCsgInfo=null} voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 20 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false LteVopsSupportInfo :  mVopsSupport = 3 mEmcBearerSupport = 3 mIsUsingCarrierAggregation = false } nrState=NONE rRplmn=405854}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=, mOperatorAlphaShortRaw=, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false}
+01-29 14:33:50.947  1482  1482 W KeyguardUpdateMonitor: invalid subId in handleServiceStateChange()
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: error loading sound for content://settings/system/notification_sound
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: java.io.IOException: setDataSource failed.: status=0x80000000
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at android.media.MediaPlayer.nativeSetDataSource(Native Method)
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1176)
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1163)
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1073)
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1005)
+01-29 14:33:50.949  1482  2773 W RingtonePlayer: 	at com.android.systemui.media.NotificationPlayer$CreationAndCompletionThread.run(NotificationPlayer.java:102)
+01-29 14:33:50.978   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:50.982   987  1059 I chatty  : uid=1001(radio) DispatcherModul identical 9 lines
+01-29 14:33:50.987   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:50.991   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:50.994  1089   382 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10079; state: DISABLED
+01-29 14:33:50.999  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10079; state: ENABLED
+01-29 14:33:51.015   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:51.068   396   396 D Zygote  : Forked child process 2805
+01-29 14:33:51.094  1482  1482 V KeyguardStatusView: Enable transport text marquee
+01-29 14:33:51.097  1089  1190 W ActivityManager: Slow operation: 103ms so far, now at startProcess: returned from zygote!
+01-29 14:33:51.098  1089  1190 W ActivityManager: Slow operation: 104ms so far, now at startProcess: done updating battery stats
+01-29 14:33:51.098  1089  1190 W ActivityManager: Slow operation: 105ms so far, now at startProcess: building log message
+01-29 14:33:51.098  1089  1190 I ActivityManager: Start proc 2805:android.process.media/u0a79 for broadcast {com.android.mtp/com.android.mtp.MtpReceiver}
+01-29 14:33:51.099  1089  1190 W ActivityManager: Slow operation: 105ms so far, now at startProcess: starting to update pids map
+01-29 14:33:51.099  1089  1190 W ActivityManager: Slow operation: 105ms so far, now at startProcess: done updating pids map
+01-29 14:33:51.124  2805  2805 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:33:51.173  2743  2743 I Perf    : Connecting to perf service.
+01-29 14:33:51.184  2087  2114 I adbd    : jdwp connection from 2805
+01-29 14:33:51.353  1089  1148 W ActivityManager: Slow operation: 140ms so far, now at attachApplicationLocked: before bindApplication
+01-29 14:33:51.355  1089  1148 W ActivityManager: Slow operation: 142ms so far, now at attachApplicationLocked: immediately before bindApplication
+01-29 14:33:51.361  1089  1148 W ActivityManager: Slow operation: 148ms so far, now at attachApplicationLocked: immediately after bindApplication
+01-29 14:33:51.361  1089  1148 W ActivityManager: Slow operation: 148ms so far, now at attachApplicationLocked: after updateLruProcessLocked
+01-29 14:33:51.362  1089  1148 W ActivityManager: Slow operation: 149ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+01-29 14:33:51.374  1089  1148 W ActivityManager: Slow operation: 161ms so far, now at attachApplicationLocked: after sendPendingBroadcastsLocked
+01-29 14:33:51.445  2743  2743 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:51.479  2743  2743 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:51.609  2805  2805 I Perf    : Connecting to perf service.
+01-29 14:33:51.617  2805  2805 I d.process.media: type=1400 audit(0.0:11589): avc: denied { call } for scontext=u:r:mediaprovider:s0:c512,c768 tcontext=u:r:hal_perf_default:s0 tclass=binder permissive=1 app=com.android.providers.media
+01-29 14:33:51.646  2805  2805 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:51.648  2805  2805 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:51.862  1237  1237 I chatty  : uid=10127 com.google.android.gms.persistent expire 3 lines
+01-29 14:33:51.911   757  2771 D CCodecBufferChannel: [c2.android.vorbis.decoder#515] buffers after EOS ignored (0 us)
+01-29 14:33:51.984  2774  2774 I Perf    : Connecting to perf service.
+01-29 14:33:52.045  2774  2774 D NetworkSecurityConfig: Using Network Security Config from resource network_security debugBuild: false
+01-29 14:33:52.080  2774  2774 D NetworkSecurityConfig: Using Network Security Config from resource network_security debugBuild: false
+01-29 14:33:52.159   757  2769 D AudioTrack: stop(71): called with 69129 frames delivered
+01-29 14:33:52.174  2743  2743 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+01-29 14:33:52.351  2743  2743 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver/.CellBroadcastReceiver (has extras) }
+01-29 14:33:52.374  1237  2496 I chatty  : uid=10127(com.google.android.gms) lowpool[94] expire 2 lines
+01-29 14:33:52.389   295   295 I lowmemorykiller: Kill 'com.android.cellbroadcastreceiver' (2743), uid 10150, oom_adj 905 to free 24288kB
+01-29 14:33:52.403   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:33:52.405   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 70:2b:96:1e:25:82
+01-29 14:33:52.405   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:33:52.405   811   950 V bt_stack: [VERBOSE1:btm_inq.cc(1019)] BTM_InqDbRead: bd addr 70:2b:96:1e:25:82
+01-29 14:33:52.532  1089  1148 I ActivityManager: Process com.android.cellbroadcastreceiver (pid 2743) has died: cch+5 CEM 
+01-29 14:33:52.584   502   863 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+01-29 14:33:52.588   396   396 I Zygote  : Process 2743 exited due to signal 9 (Killed)
+01-29 14:33:52.602  1089  1196 I chatty  : uid=1000(system) ActivityManager expire 2 lines
+01-29 14:33:52.608  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 5
+01-29 14:33:52.609  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 5
+01-29 14:33:52.717  1237  1286 I chatty  : uid=10127(com.google.android.gms) lowpool[84] expire 2 lines
+01-29 14:33:52.730  1237  2834 I chatty  : uid=10127(com.google.android.gms) lowpool[97] expire 1 line
+01-29 14:33:52.775  1237  2574 I chatty  : uid=10127 com.google.android.gms.persistent expire 1 line
+01-29 14:33:53.349  1237  2375 I chatty  : uid=10127(com.google.android.gms) lowpool[92] expire 1 line
+01-29 14:33:53.369  2774  2774 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10087; state: ENABLED
+01-29 14:33:53.403  1237  1448 I chatty  : uid=10127(com.google.android.gms) netscheduler-qu expire 2 lines
+01-29 14:33:53.464  2805  2805 D MtpService: starting MTP server in MTP mode with storage /storage/emulated/0 unlocked as user 0
+01-29 14:33:53.533  2805  2805 I MtpService: Couldn't get control FD!
+01-29 14:33:53.562  2805  2805 V MtpService: Adding MTP storage:/storage/emulated/0
+01-29 14:33:53.571   776   776 E Parcel  : Reading a NULL string not supported here.
+01-29 14:33:53.835   757  3725 D PipelineWatcher: DEBUG: elapsed 0 / 0
+01-29 14:33:54.043  2774  2848 W com.jio.myjio: ClassLoaderContext classpath size mismatch. expected=11, found=0 (DLC[];PCL[base.apk*2850398424:base.apk!classes2.dex*2831353601:base.apk!classes3.dex*4013120179:base.apk!classes4.dex*3537423919:base.apk!classes5.dex*682537507:base.apk!classes6.dex*1477591877:base.apk!classes7.dex*2699957706:base.apk!classes8.dex*534378704:base.apk!classes9.dex*2162008297:base.apk!classes10.dex*1182648913:base.apk!classes11.dex*169879777]{PCL[/system/framework/org.apache.http.legacy.jar*181645345]#PCL[/system/framework/com.android.media.remotedisplay.jar*2596221954]#PCL[/system/framework/com.android.location.provider.jar*2383074192]#PCL[/system/framework/org.apache.http.legacy.jar*181645345]} | DLC[];PCL[])
+01-29 14:33:54.109  2846  2846 I chatty  : uid=1000(system) expire 32 lines
+01-29 14:33:54.229  2774  2848 W System  : ClassLoader referenced unknown path: 
+01-29 14:33:54.484  2846  2858 I chatty  : uid=1000(system) expire 1 line
+01-29 14:33:54.486  2846  2846 I chatty  : uid=1000(system) expire 2 lines
+01-29 14:33:54.486  2846  2846 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:33:54.486  2846  2846 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:33:54.486  2846  2846 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:33:54.486  2846  2846 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:33:54.486  2846  2846 E improveTouch: [TouchServer:87] delete config management
+01-29 14:33:54.488  2846  2846 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:33:54.489  2846  2846 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:33:54.557  2774  2867 I TetheringManager: registerTetheringEventCallback:com.jio.myjio
+01-29 14:33:54.649  2774  2848 W com.jio.myjio: ClassLoaderContext classpath size mismatch. expected=11, found=7 (DLC[];PCL[base.apk*2850398424:base.apk!classes2.dex*2831353601:base.apk!classes3.dex*4013120179:base.apk!classes4.dex*3537423919:base.apk!classes5.dex*682537507:base.apk!classes6.dex*1477591877:base.apk!classes7.dex*2699957706:base.apk!classes8.dex*534378704:base.apk!classes9.dex*2162008297:base.apk!classes10.dex*1182648913:base.apk!classes11.dex*169879777]{PCL[/system/framework/org.apache.http.legacy.jar*181645345]#PCL[/system/framework/com.android.media.remotedisplay.jar*2596221954]#PCL[/system/framework/com.android.location.provider.jar*2383074192]#PCL[/system/framework/org.apache.http.legacy.jar*181645345]} | DLC[];PCL[/system/priv-app/MyJio/MyJio.apk*3336697643:/system/priv-app/MyJio/MyJio.apk!classes2.dex*1444110188:/system/priv-app/MyJio/MyJio.apk!classes3.dex*3585849762:/system/priv-app/MyJio/MyJio.apk!classes4.dex*1141469615:/system/priv-app/MyJio/MyJio.apk!classes5.dex*1856000963:/system/priv-app/MyJio/MyJio.apk!classes6.dex*983161741:/system/priv-app/MyJio/MyJio.apk!classes7.dex*281808771]{PCL[/system/framework/android.test.base.jar*3223074991]#PCL[/system/framework/org.apache.http.legacy.jar*181645345]})
+01-29 14:33:55.250  2774  2848 W com.jio.myjio: Found duplicate classes, falling back to extracting from APK : /data/app/~~O9BfoWvpJV_lSSOLJjr4mg==/com.google.android.gms-Ua6EwjEvAvh29LVlR8fhag==/split_MeasurementDynamite_installtime.apk
+01-29 14:33:55.250  2774  2848 W com.jio.myjio: NOTE: This wastes RAM and hurts startup performance.
+01-29 14:33:55.250  2774  2848 W com.jio.myjio: Found duplicated class when checking oat files: 'Landroid/support/v4/graphics/drawable/IconCompatParcelizer;' in /system/priv-app/MyJio/MyJio.apk and /data/app/~~O9BfoWvpJV_lSSOLJjr4mg==/com.google.android.gms-Ua6EwjEvAvh29LVlR8fhag==/split_MeasurementDynamite_installtime.apk
+01-29 14:33:55.521   480  1041 D audio_hw_primary: out_standby: enter: stream (0xafa69800) usecase(1: low-latency-playback)
+01-29 14:33:55.557   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:33:55.558   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 70:2b:96:1e:25:82
+01-29 14:33:55.558   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:33:55.558   811   950 V bt_stack: [VERBOSE1:btm_inq.cc(1019)] BTM_InqDbRead: bd addr 70:2b:96:1e:25:82
+01-29 14:33:55.578  1237  1610 I NearbyDiscovery: BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. 11.220184543019636m, mac=XX:XX:XX:XX:25:82 [CONTEXT service_id=265 group_by="70:2B:96:1E:25:82" ratelimit_period="30 SECONDS" ]
+01-29 14:33:55.601   480  1041 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+01-29 14:33:55.603   480  1041 D soundtrigger: audio_extn_sound_trigger_update_stream_status: uc_info->id 1 of type 0 for Event 2, with Raise=0
+01-29 14:33:55.604   480  1041 D hardware_info: hw_info_append_hw_type : device_name = speaker
+01-29 14:33:55.605   480  1041 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+01-29 14:33:55.606   480  1041 I soundtrigger: audio_extn_sound_trigger_update_device_status: device 0x2 of type 0 for Event 0, with Raise=0
+01-29 14:33:55.670   882  1679 D BufferPoolAccessor2.0: bufferpool2 0xb5178b98 : 0(0 size) total buffers - 0(0 size) used buffers - 66/70 (recycle/alloc) - 4/69 (fetch/transfer)
+01-29 14:33:55.671   882  1679 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+01-29 14:33:55.933  2711  2711 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+01-29 14:33:55.934  2711  2711 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+01-29 14:33:55.934  2711  2711 I DynamiteModule: Selected local version of com.google.android.gms.providerinstaller.dynamite
+01-29 14:33:55.969  2711  2803 I gle.android.gm: Waiting for a blocking GC ProfileSaver
+01-29 14:33:55.993  2711  2803 I gle.android.gm: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 21.324ms
+01-29 14:33:56.098  1089  2461 I chatty  : uid=1000(system) Binder:1089_C expire 3 lines
+01-29 14:33:56.210  2711  2711 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 329 native methods...
+01-29 14:33:56.581  2774  2827 I com.jio.myjio: Waiting for a blocking GC ProfileSaver
+01-29 14:33:56.597  2774  2827 I com.jio.myjio: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 15.338ms
+01-29 14:33:56.636   295   295 I lowmemorykiller: Kill 'com.qti.diagservices' (1346), uid 1000, oom_adj 800 to free 14520kB
+01-29 14:33:56.656   757  3727 D BufferPoolAccessor2.0: bufferpool2 0xb3e3d1d8 : 4(261228 size) total buffers - 4(261228 size) used buffers - 67/75 (recycle/alloc) - 8/144 (fetch/transfer)
+01-29 14:33:56.656   757  3727 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+01-29 14:33:56.680  2805  2828 I d.process.medi: Waiting for a blocking GC ProfileSaver
+01-29 14:33:56.755  2805  2828 I d.process.medi: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 75.038ms
+01-29 14:33:56.764  2805  2819 I d.process.medi: WaitForGcToComplete blocked RunEmptyCheckpoint on ProfileSaver for 7.326ms
+01-29 14:33:56.781   396   396 I Zygote  : Process 1346 exited due to signal 9 (Killed)
+01-29 14:33:56.782  1089  2130 I ActivityManager: Process com.qti.diagservices (pid 1346) has died: svcb SVC 
+01-29 14:33:56.789  1089  2130 W ActivityManager: Scheduling restart of crashed service com.qti.diagservices/.QTIDiagServices in 1000ms for start-requested
+01-29 14:33:57.136  2711  2711 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+01-29 14:33:57.295  2774  2916 E com.jio.myjio: No package ID 74 found for ID 0x740b0013.
+01-29 14:33:57.311  2774  2916 I FA      : App measurement initialized, version: 148008
+01-29 14:33:57.311  2774  2916 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+01-29 14:33:57.312  2774  2916 I FA      : To enable faster debug mode event logging run:
+01-29 14:33:57.312  2774  2916 I FA      :   adb shell setprop debug.firebase.analytics.app com.jio.myjio
+01-29 14:33:57.394  2711  2711 I GmsApplication: [gms_startup_benchmark] Static start time (ms): 602254740, Startup latency (ms): 5044, Is system user: true
+01-29 14:33:57.481  2711  2931 I Watchcat: Started
+01-29 14:33:57.656   757  3727 D BufferPoolAccessor2.0: bufferpool2 0xb3e3df98 : 8(522456 size) total buffers - 4(261228 size) used buffers - 67/75 (recycle/alloc) - 8/144 (fetch/transfer)
+01-29 14:33:57.662   757  3727 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+01-29 14:33:57.671   882  1679 D BufferPoolAccessor2.0: bufferpool2 0xb517a0d8 : 4(65536 size) total buffers - 0(0 size) used buffers - 66/70 (recycle/alloc) - 4/69 (fetch/transfer)
+01-29 14:33:57.673   882  1679 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+01-29 14:33:57.706  2774  2933 I com.jio.myjio: Waiting for a blocking GC ClassLinker
+01-29 14:33:57.739  2711  2931 I GMS_MM_Logger: Start time: 240356
+01-29 14:33:57.741  2711  2931 I GMS_MM_Logger: Started.
+01-29 14:33:57.759  2774  2933 I com.jio.myjio: WaitForGcToComplete blocked ClassLinker on ProfileSaver for 52.972ms
+01-29 14:33:57.806  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 1000; state: DISABLED
+01-29 14:33:57.839  2711  2711 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+01-29 14:33:57.840  2711  2711 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+01-29 14:33:57.874   396   396 D Zygote  : Forked child process 2944
+01-29 14:33:57.879  1089  1190 W ActivityManager: Slow operation: 81ms so far, now at startProcess: returned from zygote!
+01-29 14:33:57.880  1089  1190 W ActivityManager: Slow operation: 81ms so far, now at startProcess: done updating battery stats
+01-29 14:33:57.880  1089  1190 W ActivityManager: Slow operation: 82ms so far, now at startProcess: building log message
+01-29 14:33:57.881  1089  1190 I ActivityManager: Start proc 2944:com.qti.diagservices/1000 for service {com.qti.diagservices/com.qti.diagservices.QTIDiagServices}
+01-29 14:33:57.881  1089  1190 W ActivityManager: Slow operation: 82ms so far, now at startProcess: starting to update pids map
+01-29 14:33:57.881  1089  1190 W ActivityManager: Slow operation: 83ms so far, now at startProcess: done updating pids map
+01-29 14:33:57.910  2711  2739 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:7 and remote module com.google.android.gms.googlecertificates:0
+01-29 14:33:57.910  2711  2739 I DynamiteModule: Selected local version of com.google.android.gms.googlecertificates
+01-29 14:33:57.914  2944  2944 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:33:58.003  2087  2114 I adbd    : jdwp connection from 2944
+01-29 14:33:58.111  2711  2739 W GoogleCertificates: GoogleCertificates has been initialized already
+01-29 14:33:58.673  1089  1148 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10127; state: DISABLED
+01-29 14:33:58.676  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10127; state: ENABLED
+01-29 14:33:58.718  1089  1215 V DisplayPowerController: Brightness [0.05] reason changing to: 'manual [ dim ]', previous reason: 'manual'.
+01-29 14:33:58.735   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=43:6e:3a:eb:6c:c4
+01-29 14:33:58.735   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 43:6e:3a:eb:6c:c4
+01-29 14:33:58.736   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=43:6e:3a:eb:6c:c4
+01-29 14:33:58.736   811   950 V bt_stack: [VERBOSE1:btm_inq.cc(1019)] BTM_InqDbRead: bd addr 43:6e:3a:eb:6c:c4
+01-29 14:33:58.752   396   396 D Zygote  : Forked child process 2981
+01-29 14:33:58.756  1089  1190 W ActivityManager: Slow operation: 86ms so far, now at startProcess: returned from zygote!
+01-29 14:33:58.757  1089  1190 W ActivityManager: Slow operation: 86ms so far, now at startProcess: done updating battery stats
+01-29 14:33:58.758  1089  1190 W ActivityManager: Slow operation: 87ms so far, now at startProcess: building log message
+01-29 14:33:58.758  1089  1190 I ActivityManager: Start proc 2981:com.google.process.gservices/u0a127 for content provider {com.google.android.gsf/com.google.android.gsf.gservices.GservicesProvider}
+01-29 14:33:58.758  1089  1190 W ActivityManager: Slow operation: 88ms so far, now at startProcess: starting to update pids map
+01-29 14:33:58.760  1089  1190 W ActivityManager: Slow operation: 90ms so far, now at startProcess: done updating pids map
+01-29 14:33:58.791  2981  2981 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:33:58.848  2944  2944 I Perf    : Connecting to perf service.
+01-29 14:33:58.875  2087  2114 I adbd    : jdwp connection from 2981
+01-29 14:33:58.936  1089   382 I chatty  : uid=1000(system) Binder:1089_15 expire 8 lines
+01-29 14:33:58.973  1089  1178 W Looper  : Slow dispatch took 119ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=68
+01-29 14:33:59.005  2711  2711 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+01-29 14:33:59.005  2711  2711 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+01-29 14:33:59.017  2944  2944 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:59.055  2944  2944 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:59.084  2944  2944 E DiagJNIInterface: Trying to load libDiagService
+01-29 14:33:59.102  1237  1371 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.jio.myjio
+01-29 14:33:59.143  1237  1610 I NearbyDiscovery: BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. 70.79457843841381m, mac=XX:XX:XX:XX:6C:C4 [CONTEXT service_id=265 group_by="43:6E:3A:EB:6C:C4" ratelimit_period="30 SECONDS" ]
+01-29 14:33:59.189  1237  1537 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-29 14:33:59.232   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=52:73:66:19:17:ca
+01-29 14:33:59.233   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 52:73:66:19:17:ca
+01-29 14:33:59.250  2981  2981 I Perf    : Connecting to perf service.
+01-29 14:33:59.269  1237  1537 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-29 14:33:59.281  2981  2981 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:59.283  2981  2981 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:33:59.300  2944  2944 I Diag_Lib: Diag_LSM_Init call succeeded
+01-29 14:33:59.384  2981  2981 I GservicesProvider: Gservices pushing to system: true; secure/global: true
+01-29 14:33:59.443  2986  2986 I chatty  : uid=1000(system) expire 26 lines
+01-29 14:33:59.452  1089  1401 I chatty  : uid=1000(system) WifiScanningSer expire 1 line
+01-29 14:33:59.464   909  3286 I chatty  : uid=1021(gps) lowi-server expire 112 lines
+01-29 14:33:59.471   492  1506 V WifiHAL : event received NL80211_CMD_TRIGGER_SCAN
+01-29 14:33:59.824   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:59.869   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:33:59.869   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 70:2b:96:1e:25:82
+01-29 14:33:59.889   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:59.924   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:33:59.960   297   297 I chatty  : uid=1000(system) hwservicemanage expire 23 lines
+01-29 14:33:59.975  2711  2711 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+01-29 14:33:59.975  2711  2711 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+01-29 14:34:00.047  2986  3015 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:00.048  2986  2986 I chatty  : uid=1000(system) expire 8 lines
+01-29 14:34:00.050  2986  2986 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:00.050  2986  2986 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:00.050  2986  2986 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:00.050  2986  2986 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:00.050  2986  2986 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:00.051  2986  2986 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:00.051  2986  2986 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:00.184  1482  1482 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+01-29 14:34:00.233  2711  2903 I Checkin : [CheckinApiChimeraService] onGetService
+01-29 14:34:00.243  1482  1482 D KeyguardUpdateMonitor: handleTimeUpdate
+01-29 14:34:00.247  2711  2731 W gle.android.gm: Suspending all threads took: 5.059ms
+01-29 14:34:00.263  1482  1482 D KeyguardClockSwitch: Updating clock: 234
+01-29 14:34:00.586  1089  1189 I chatty  : uid=1000(system) ActivityManager expire 3 lines
+01-29 14:34:00.623   492  1506 V WifiHAL : event received NL80211_CMD_NEW_SCAN_RESULTS
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report beacon TSF 602263010747 as it greater than probe TSF 602263010747
+01-29 14:34:00.662   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] RSN_IE
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: Entered
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWIUtils] hexDump: msg(30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 01 00 0f ac 03 )
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 18
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:9f:ae LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:9f:ae FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:34:00.662   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:9f:ae (wlan0) ASSO: NO AddInfo: 0x1, TSF 6, 23:17:43.010, RSSI: -198, CPL: 127, AGE: 20,  SSID JioPrivateNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:34:00.663   909  3286 D LOWI-9.0.0.79: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+01-29 14:34:00.663   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] lowi_close_record:Scan done in 602221082ms, 13 APs in scan results
+01-29 14:34:00.663   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 61814 ms, err 0
+01-29 14:34:00.663   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+01-29 14:34:00.663   909  3286 D LOWI-9.0.0.79: [LOWIScanResultReceiver] Send scan meas to listener
+01-29 14:34:00.664   909  3286 D LOWI-9.0.0.79: [LOWIScanResultReceiver] Enter passive listening mode
+01-29 14:34:00.664   909   961 D LOWI-9.0.0.79: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+01-29 14:34:00.665   909  3286 D LOWI-9.0.0.79: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+01-29 14:34:00.665   909   961 D LOWI-9.0.0.79: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+01-29 14:34:00.665   909   961 D LOWI-9.0.0.79: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+01-29 14:34:00.665   909   961 D LOWI-9.0.0.79: [LOWIController] Measurements received
+01-29 14:34:00.665   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+01-29 14:34:00.666   909   961 D LOWI-9.0.0.79: [LOWICacheManager] putInCache:Num of Meas to add: 13
+01-29 14:34:00.671   909   961 D LOWI-9.0.0.79: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+01-29 14:34:00.671   909   961 D LOWI-9.0.0.79: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+01-29 14:34:00.688  1089  1215 I PowerManagerService: Going to sleep due to timeout (uid 1000)...
+01-29 14:34:00.712  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:34:00.733  1089  1215 I DisplayPowerController: Blocking screen off
+01-29 14:34:00.778  1089  1215 I DisplayPowerController: Unblocked screen off after 46 ms
+01-29 14:34:00.795   295   295 I lowmemorykiller: Kill 'android.process.media' (2805), uid 10079, oom_adj 800 to free 22868kB
+01-29 14:34:00.844   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:34:00.844   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(2054)]  Waiting for scan response 70:2b:96:1e:25:82
+01-29 14:34:00.845   811   950 V bt_stack: [VERBOSE1:btm_ble_gap.cc(1849)] btm_ble_process_adv_addr: bda=70:2b:96:1e:25:82
+01-29 14:34:00.845   811   950 V bt_stack: [VERBOSE1:btm_inq.cc(1019)] BTM_InqDbRead: bd addr 70:2b:96:1e:25:82
+01-29 14:34:00.863  1237  1610 I NearbyDiscovery: BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. 10.0m, mac=XX:XX:XX:XX:25:82 [CONTEXT service_id=265 group_by="70:2B:96:1E:25:82" ratelimit_period="30 SECONDS" ]
+01-29 14:34:00.863  1089  1215 V DisplayPowerController: Brightness [-1.0] reason changing to: 'screen_off', previous reason: 'manual [ dim ]'.
+01-29 14:34:00.866  1089  1180 I DisplayManagerService: Display device changed state: "Built-in Screen", OFF
+01-29 14:34:00.875  1482  1224 D KeyguardViewMediator: onStartedGoingToSleep(3)
+01-29 14:34:00.876  1089  1205 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+01-29 14:34:00.883  2711  3018 I FA-SVC  : App measurement initialized, version: 255034
+01-29 14:34:00.911  1089  1180 I chatty  : uid=1000(system) android.display expire 1 line
+01-29 14:34:00.913  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:00.915   504   504 D SurfaceFlinger: Setting power mode 0 on display 0
+01-29 14:34:00.917   484   484 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 0
+01-29 14:34:00.929   811   932 I BtGatt.ScanManager: msg.what = 8
+01-29 14:34:00.937   811   932 I BtGatt.ScanManager: msg.what = 4
+01-29 14:34:00.940  1089  1360 I chatty  : uid=1000(system) InputReader expire 2 lines
+01-29 14:34:00.945   396   396 I Zygote  : Process 2805 exited due to signal 9 (Killed)
+01-29 14:34:00.947  1482  1224 D KeyguardViewMediator: notifyStartedGoingToSleep
+01-29 14:34:00.948  1482  3252 D KeyguardViewMediator: notifyScreenTurnedOff
+01-29 14:34:00.988  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:00.989  1482  1482 D KeyguardViewMediator: handleNotifyStartedGoingToSleep
+01-29 14:34:01.005  1237  1371 I NearbyPresence: cqrf verified [==] new request BroadcastEngineRequest:<priority: 400, identityManager: null, broadcastOobContext: BroadcastOobContext:<peerDevice: {}, localUwbCapabilities: {}, peerUwbConnectionInfoMap: {}, tcpServerPort: null, AdvertisementMaps: {}, dedupHint: [-92, -45, 33, 125, -57, 57, -102, 93], isNetworkConnected: false, isBluetoothEnabled false, workSource=WorkSource{}> equals to the old request [CONTEXT service_id=317 ]
+01-29 14:34:01.027   356   356 I Binder:356_1: type=1400 audit(0.0:11597): avc: denied { read } for name="expire_count" dev="sysfs" ino=31250 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=1
+01-29 14:34:01.027   356   356 I Binder:356_1: type=1400 audit(0.0:11598): avc: denied { open } for path="/sys/devices/platform/soc/78b6000.i2c/i2c-2/2-0014/power_supply/battery/wakeup18/expire_count" dev="sysfs" ino=31250 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs_battery_supply:s0 tclass=file permissive=1
+01-29 14:34:01.040  1482  1482 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+01-29 14:34:01.047  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.048  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.087   491   491 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:01.091   491   491 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:01.095  1237  1237 I NearbyDiscovery: FastPairDisplayObserver: STATE_ON -> STATE_OFF [CONTEXT service_id=265 ]
+01-29 14:34:01.117  1237  1610 I NearbyDiscovery: ApFastPairScanner: isScreenOn=false, isLocationEnabled=true, disableLocationRequirement=false, isDiscoveryScanningEnabled=true, during24GhzWifiWarmingUpPeriod=false [CONTEXT service_id=265 ]
+01-29 14:34:01.121  1237  1610 D BluetoothAdapter: isLeEnabled(): BLE_ON
+01-29 14:34:01.122  1237  1610 I NearbyDiscovery: ApFastPairScanner: eventType=SCREEN_OFF_FROM_DISPLAY_OBSERVER, intReq=false, scanning=true, scanAllowed=false, bleEnabled=true, lockScanRate=false, startScanningByLowPowerMode=false [CONTEXT service_id=265 ]
+01-29 14:34:01.134  1237  1610 I NearbyDiscovery: ApFastPairScanner: Stopping scan, scan-mode=balanced [CONTEXT service_id=265 ]
+01-29 14:34:01.137  1237  1610 D BluetoothAdapter: isLeEnabled(): BLE_ON
+01-29 14:34:01.148   811   834 D BtGatt.GattService: stopScan() - queue size =1
+01-29 14:34:01.150   504   504 D SurfaceFlinger: Finished setting power mode 0 on display 0
+01-29 14:34:01.152  1089  1468 I chatty  : uid=1000(system) PhotonicModulat expire 1 line
+01-29 14:34:01.161  1089  1215 I DreamManagerService: Entering dreamland.
+01-29 14:34:01.165  1089  1215 I PowerManagerService: Dozing...
+01-29 14:34:01.167   490   490 I QTI PowerHAL: Power setMode: 7 to: 0
+01-29 14:34:01.171  1089   382 I chatty  : uid=1000(system) Binder:1089_15 expire 3 lines
+01-29 14:34:01.177   490   490 I QTI PowerHAL: Got set_interactive hint
+01-29 14:34:01.177   490   490 I QTI PowerHAL: Got set_interactive hint on= 0, count= 146
+01-29 14:34:01.177   490   490 E QTI PowerHAL: Error opening /sys/kernel/hbtp/display_pwr: No such file or directory
+01-29 14:34:01.186  1089  1148 I chatty  : uid=1000(system) Binder:1089_1 expire 1 line
+01-29 14:34:01.189  1089  1148 I ActivityManager: Process android.process.media (pid 2805) has died: svcb SVC 
+01-29 14:34:01.192  1089  1196 I chatty  : uid=1000(system) ActivityManager expire 1 line
+01-29 14:34:01.197  1089  1148 W ActivityManager: Scheduling restart of crashed service com.android.mtp/.MtpService in 15598ms for start-requested
+01-29 14:34:01.226  1089  1177 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+01-29 14:34:01.231  3492  3492 V GlobalScreenshot: clearing screenshot: close system dialogs
+01-29 14:34:01.234  1089  1177 I chatty  : uid=1000(system) android.fg expire 3 lines
+01-29 14:34:01.236  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 10
+01-29 14:34:01.237  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 10
+01-29 14:34:01.241  1237  2375 I FrewleTileCacheManagerV: Fetched 11 AP models from cache [CONTEXT service_id=6 ]
+01-29 14:34:01.242  2711  2711 I gle.android.gm: Waiting for a blocking GC ClassLinker
+01-29 14:34:01.249   811   932 I BtGatt.ScanManager: msg.what = 1
+01-29 14:34:01.250   811   932 D BtGatt.ScanManager: stop scan
+01-29 14:34:01.252   811   835 D BtGatt.GattService: unregisterScanner() - scannerId=4
+01-29 14:34:01.276   811   921 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=4, status=0, action=1, availableSpace=15
+01-29 14:34:01.276   811   921 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+01-29 14:34:01.287   811   921 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=4, status=0, action=1, availableSpace=16
+01-29 14:34:01.287   811   921 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+01-29 14:34:01.287   811   932 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+01-29 14:34:01.287   811   932 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=-2147483648ScanSetting LE Coded Scan mode=-2147483648 mLastConfiguredScanSettingLE1M=1 mLastConfiguredScanSettingLECoded=-2147483648scanPhy=1
+01-29 14:34:01.287   811   932 D BtGatt.ScanManager: configureRegularScanParams() - queue emtpy, scan stopped
+01-29 14:34:01.287   811   932 D BtGatt.ScanManager: configureRegularScanParams() - queue emtpy, scan stopped
+01-29 14:34:01.296   811   950 V bt_stack: [VERBOSE1:gatt_api.cc(993)] GATT_Deregister gatt_if=4
+01-29 14:34:01.296   811   950 V bt_stack: [VERBOSE1:connection_manager.cc(161)] on_app_deregistered : app_id 0x04
+01-29 14:34:01.345  2711  2711 I gle.android.gm: WaitForGcToComplete blocked ClassLinker on HeapTrim for 102.230ms
+01-29 14:34:01.366  1482  1482 V KeyguardUpdateMonitor: *** register callback for com.android.systemui.doze.DozeUi$1@5b46afc
+01-29 14:34:01.367  1482  1482 V KeyguardUpdateMonitor: *** unregister callback for null
+01-29 14:34:01.409  1482  1482 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+01-29 14:34:01.419  1482  1870 D KeyguardViewMediator: updateActivityLockScreenState(true, true)
+01-29 14:34:01.436  1482  1482 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+01-29 14:34:01.438  1089   382 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.lockbox.service.START pkg=com.google.android.gms } U=0: not found
+01-29 14:34:01.439  1089  2130 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@790a3b5
+01-29 14:34:01.441  2711  2903 W GmsClient: unable to connect to service: com.google.android.gms.lockbox.service.START on com.google.android.gms
+01-29 14:34:01.451  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.453  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.454  1482  1482 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=true mOccluded=false isSecure=false force=false --> flags=0x1200000
+01-29 14:34:01.478  1482  1482 D KeyguardViewBase: show()
+01-29 14:34:01.479  1482  1482 V KeyguardSecurityView: showPrimarySecurityScreen(turningOff=false)
+01-29 14:34:01.479  1482  1482 D KeyguardSecurityView: showSecurityScreen(None)
+01-29 14:34:01.479  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.481  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.495  1089   382 I chatty  : uid=1000(system) Binder:1089_15 expire 3 lines
+01-29 14:34:01.499  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:01.501  1482  3252 D KeyguardViewMediator: onFinishedGoingToSleep(3)
+01-29 14:34:01.501  1482  3252 D KeyguardViewMediator: notifyFinishedGoingToSleep
+01-29 14:34:01.501  1482  3252 E KeyguardViewMediator: resetStateLocked
+01-29 14:34:01.519  1089  1384 I chatty  : uid=1000(system) WifiHandlerThre expire 1 line
+01-29 14:34:01.563  1482  1482 D KeyguardUpdateMonitor: handleKeyguardReset
+01-29 14:34:01.564  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:01.584  1482  1482 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+01-29 14:34:01.588  2711  2903 W TracingHelper: No RequestContext found in the trace or trace not available. [CONTEXT service_id=259 ratelimit_count=1410065408 ]
+01-29 14:34:01.597  1482  1482 D KeyguardViewMediator: handleReset
+01-29 14:34:01.604  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.606  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.608   480  1041 D audio_hw_primary: adev_set_parameters: enter: screen_state=off
+01-29 14:34:01.619  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.620  1482  1482 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=true mOccluded=false isSecure=false force=false --> flags=0x1200000
+01-29 14:34:01.621  1482  1482 D KeyguardViewBase: show()
+01-29 14:34:01.624  1482  1482 V KeyguardSecurityView: showPrimarySecurityScreen(turningOff=false)
+01-29 14:34:01.625  1482  1482 D KeyguardSecurityView: showSecurityScreen(None)
+01-29 14:34:01.629  1482  1482 V KeyguardStatusView: Schedule setEnableMarquee: Disable
+01-29 14:34:01.629  1482  1482 V KeyguardStatusView: Disable transport text marquee
+01-29 14:34:01.630   480  1041 W sound_trigger_hw: sound_trigger_hw_call_back: Unknown event 17
+01-29 14:34:01.632  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:01.650  1089  1089 W Looper  : Slow dispatch took 124ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@e8c99fa m=0
+01-29 14:34:01.685   483   565 I LocSvc_api_v02: ---> locClientSendReq line 2409 QMI_LOC_INJECT_POSITION_REQ_V02
+01-29 14:34:01.686   483   565 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:01.688   483   951 E QMI_FW  : qmi_cci_get_ref: ref count increased 3
+01-29 14:34:01.688   483   951 I LocSvc_ApiV02: <--- globalRespCb line 221 QMI_LOC_INJECT_POSITION_REQ_V02
+01-29 14:34:01.720  2711  3018 I TetheringManager: registerTetheringEventCallback:com.google.android.gms
+01-29 14:34:01.774  1577  1577 I DeviceStatusMonitor: DeviceStatusMonitor$1.onReceive():57 onReceive() : Action = android.intent.action.SCREEN_OFF
+01-29 14:34:01.795  2711  3018 W TracingHelper: Mismatched RequestContext found for module MEASUREMENT. Module id from RequestContext is MODULEID_UNKNOWN [CONTEXT service_id=259 ratelimit_count=1410065408 ]
+01-29 14:34:01.810  1577  1577 I InputBundle: InputBundle.consumeEvent():961 Skip consuming an event as imeStatus is 0
+01-29 14:34:01.839  1577  1577 I DeviceStatusMonitor: DeviceStatusMonitor.updateCountryInfo():117 updateCountryInfo(), notifyAnyway = false
+01-29 14:34:01.921  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.922  1482  1482 D StatusBar: disable<e i a s b H R c s > disable2<q i n >
+01-29 14:34:01.939  1482  1482 D KeyguardUpdateMonitor: handleKeyguardReset
+01-29 14:34:01.940  1482  1482 V KeyguardUpdateMonitor: startListeningForFingerprint()
+01-29 14:34:02.024  1237  1237 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+01-29 14:34:02.052  1237  1610 I NearbyDiscovery: FastPairHandler: Received action android.intent.action.SCREEN_OFF [CONTEXT service_id=265 ]
+01-29 14:34:02.096  1237  1610 I NearbyDiscovery: ApFastPairScanner: isScreenOn=false, isLocationEnabled=true, disableLocationRequirement=false, isDiscoveryScanningEnabled=true, during24GhzWifiWarmingUpPeriod=false [CONTEXT service_id=265 ]
+01-29 14:34:02.098  1237  1610 D BluetoothAdapter: isLeEnabled(): BLE_ON
+01-29 14:34:02.099  1237  1610 I NearbyDiscovery: ApFastPairScanner: eventType=SCREEN_OFF, intReq=false, scanning=false, scanAllowed=false, bleEnabled=true, lockScanRate=false, startScanningByLowPowerMode=false [CONTEXT service_id=265 ]
+01-29 14:34:02.102  1237  1610 I NearbyDiscovery: FastPairController: onSystemStateChanged: skip due to flag disabled [CONTEXT service_id=265 ]
+01-29 14:34:02.176  2711  3018 D AdvertisingIdClient: Creating AdvertisingIdClient
+01-29 14:34:02.177  2711  3018 D AdvertisingIdClient: AdvertisingIdClient already created.
+01-29 14:34:02.178  2711  3018 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+01-29 14:34:02.188  1089   382 I chatty  : uid=1000(system) Binder:1089_15 expire 3 lines
+01-29 14:34:02.197  1237  1237 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-29 14:34:02.201  2711  3018 D AdvertisingIdClient: AdvertisingIdClient is bounded
+01-29 14:34:02.228  2711  3018 I AdvertisingIdClient: shouldSendLog -1
+01-29 14:34:02.230  2711  3018 I AdvertisingIdClient: GetInfoInternal elapse 49ms
+01-29 14:34:02.245  2711  2711 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_DISABLED_FOR_CONNECTION, resolution=null, message=null, clientMethodKey=null}
+01-29 14:34:02.292   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:02.335   295   295 I lowmemorykiller: Kill 'com.google.process.gservices' (2981), uid 10127, oom_adj 700 to free 25300kB
+01-29 14:34:02.442  1089   382 I ActivityManager: Process com.google.process.gservices (pid 2981) has died: prev LAST
+01-29 14:34:02.464   396   396 I Zygote  : Process 2981 exited due to signal 9 (Killed)
+01-29 14:34:02.482  1089  1196 I chatty  : uid=1000(system) ActivityManager expire 2 lines
+01-29 14:34:02.485  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 15
+01-29 14:34:02.485  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 15
+01-29 14:34:03.969  3033  3033 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:04.242  3033  3034 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:04.244  3033  3033 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:04.244  3033  3033 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:04.244  3033  3033 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:04.245  3033  3033 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:04.245  3033  3033 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:04.246  3033  3033 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:04.247  3033  3033 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:06.104   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:07.253  1237  1237 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+01-29 14:34:07.590  1632  1648 W .dataservices: Reducing the number of considered missed Gc histogram windows from 123 to 100
+01-29 14:34:08.951  3035  3035 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:09.212  3035  3036 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:09.213  3035  3035 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:09.213  3035  3035 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:09.213  3035  3035 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:09.213  3035  3035 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:09.213  3035  3035 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:09.214  3035  3035 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:09.215  3035  3035 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:09.944   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:12.037  1237  1382 I NearbyPresence: cqrf verified [==] new request BroadcastEngineRequest:<priority: 400, identityManager: null, broadcastOobContext: BroadcastOobContext:<peerDevice: {}, localUwbCapabilities: {}, peerUwbConnectionInfoMap: {}, tcpServerPort: null, AdvertisementMaps: {}, dedupHint: [-92, -45, 33, 125, -57, 57, -102, 93], isNetworkConnected: false, isBluetoothEnabled false, workSource=WorkSource{}> equals to the old request [CONTEXT service_id=317 ]
+01-29 14:34:12.340   297   297 I chatty  : uid=1000(system) hwservicemanage expire 11 lines
+01-29 14:34:12.356  2711  2711 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+01-29 14:34:13.865  3037  3037 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:13.985  1680  1697 W qtidataservice: Reducing the number of considered missed Gc histogram windows from 124 to 100
+01-29 14:34:14.121  3037  3038 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:14.122  3037  3037 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:14.122  3037  3037 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:14.123  3037  3037 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:14.123  3037  3037 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:14.123  3037  3037 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:14.124  3037  3037 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:14.124  3037  3037 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:15.633  2711  2711 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+01-29 14:34:16.801  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10079; state: DISABLED
+01-29 14:34:16.802  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10079; state: ENABLED
+01-29 14:34:16.840   396   396 D Zygote  : Forked child process 3039
+01-29 14:34:16.850  1089  1190 I ActivityManager: Start proc 3039:android.process.media/u0a79 for service {com.android.mtp/com.android.mtp.MtpService}
+01-29 14:34:16.851  1089  1190 W ActivityManager: Slow operation: 51ms so far, now at startProcess: done updating pids map
+01-29 14:34:17.051   295   295 I lowmemorykiller: Kill 'com.google.android.gms' (2711), uid 10127, oom_adj 905 to free 51660kB
+01-29 14:34:17.059  3039  3039 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:34:17.169  2087  2114 I adbd    : jdwp connection from 3039
+01-29 14:34:17.176   396   396 I Zygote  : Process 2711 exited due to signal 9 (Killed)
+01-29 14:34:17.178  1089  4086 I ActivityManager: Process com.google.android.gms (pid 2711) has died: cch+5 CEM 
+01-29 14:34:17.184  1237  1237 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+01-29 14:34:17.210  1089  1148 I chatty  : uid=1000(system) Binder:1089_1 expire 10 lines
+01-29 14:34:17.214  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 15
+01-29 14:34:17.215  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 15
+01-29 14:34:17.327  3039  3039 I Perf    : Connecting to perf service.
+01-29 14:34:17.337  3039  3039 I d.process.media: type=1400 audit(0.0:11605): avc: denied { call } for scontext=u:r:mediaprovider:s0:c512,c768 tcontext=u:r:hal_perf_default:s0 tclass=binder permissive=1
+01-29 14:34:17.361  3039  3039 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:34:17.367  3039  3039 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:34:17.635  3039  3039 D MtpService: starting MTP server in MTP mode with storage /storage/emulated/0 unlocked as user 0
+01-29 14:34:17.658  3039  3039 I MtpService: Couldn't get control FD!
+01-29 14:34:17.676  3039  3039 V MtpService: Adding MTP storage:/storage/emulated/0
+01-29 14:34:17.683   776   776 E Parcel  : Reading a NULL string not supported here.
+01-29 14:34:19.020  3069  3069 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:19.280  3069  3070 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:19.281  3069  3069 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:19.281  3069  3069 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:19.281  3069  3069 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:19.281  3069  3069 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:19.281  3069  3069 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:19.281  3069  3069 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:19.282  3069  3069 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:19.283  3069  3069 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:21.471   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:22.342  3039  3062 I d.process.medi: Waiting for a blocking GC ProfileSaver
+01-29 14:34:22.394  3039  3062 I d.process.medi: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 52.788ms
+01-29 14:34:22.776  1705  1721 W elephonyservic: Reducing the number of considered missed Gc histogram windows from 123 to 100
+01-29 14:34:23.884  3072  3072 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:24.136  3072  3073 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:24.137  3072  3072 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:24.137  3072  3072 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:24.138  3072  3072 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:24.138  3072  3072 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:24.138  3072  3072 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:24.139  3072  3072 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:24.139  3072  3072 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:25.315   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:27.858  1727  1743 I .codeaurora.im: Background concurrent copying GC freed 1097(80KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 1796KB/19MB, paused 129us total 165.324ms
+01-29 14:34:27.858  1727  1743 W .codeaurora.im: Reducing the number of considered missed Gc histogram windows from 124 to 100
+01-29 14:34:28.900  3074  3074 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:29.151   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:29.168  3074  3075 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:29.169  3074  3074 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:29.170  3074  3074 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:29.170  3074  3074 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:29.170  3074  3074 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:29.170  3074  3074 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:29.170  3074  3074 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:29.171  3074  3074 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:29.174  3074  3074 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:31.582   297   297 I chatty  : uid=1000(system) hwservicemanage expire 10 lines
+01-29 14:34:32.927  1748  1765 I m.android.phon: Background concurrent copying GC freed 25521(2645KB) AllocSpace objects, 2(32KB) LOS objects, 87% free, 2733KB/20MB, paused 144us total 231.358ms
+01-29 14:34:32.928  1748  1765 W m.android.phon: Reducing the number of considered missed Gc histogram windows from 123 to 100
+01-29 14:34:34.036  3076  3076 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:34.340  3076  3077 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:34.346  3076  3076 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:34.349  3076  3076 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:34.349  3076  3076 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:34.349  3076  3076 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:34.349  3076  3076 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:34.349  3076  3076 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:34.351  3076  3076 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:34.351  3076  3076 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:36.827   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:37.863  2255  2306 I .redbend.clien: Background concurrent copying GC freed 5603(299KB) AllocSpace objects, 168(8736KB) LOS objects, 89% free, 2054KB/20MB, paused 205us total 136.994ms
+01-29 14:34:37.864  2255  2306 W .redbend.clien: Reducing the number of considered missed Gc histogram windows from 124 to 100
+01-29 14:34:39.023  3079  3079 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:39.302  3079  3080 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:39.306  3079  3079 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:39.309  3079  3079 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:39.309  3079  3079 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:39.309  3079  3079 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:39.309  3079  3079 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:39.309  3079  3079 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:39.311  3079  3079 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:39.311  3079  3079 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:40.675   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:43.052  2263  2284 I alcomm.locatio: Background concurrent copying GC freed 31(48KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 1781KB/19MB, paused 142us total 339.206ms
+01-29 14:34:43.052  2263  2284 W alcomm.locatio: Reducing the number of considered missed Gc histogram windows from 123 to 100
+01-29 14:34:44.029  3081  3081 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:44.311  3081  3082 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:44.314  3081  3081 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:44.317  3081  3081 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:44.317  3081  3081 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:44.317  3081  3081 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:44.317  3081  3081 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:44.317  3081  3081 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:44.319  3081  3081 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:44.319  3081  3081 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:44.515   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:47.859  2275  2300 I io.adc.embedde: Background concurrent copying GC freed 19667(1043KB) AllocSpace objects, 1(16KB) LOS objects, 88% free, 2373KB/20MB, paused 173us total 142.585ms
+01-29 14:34:47.860  2275  2300 W io.adc.embedde: Reducing the number of considered missed Gc histogram windows from 124 to 100
+01-29 14:34:48.767  1727  1727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+01-29 14:34:48.814  1482  1482 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+01-29 14:34:48.820  1482  1482 D KeyguardUpdateMonitor: handleBatteryUpdate
+01-29 14:34:48.998  3083  3083 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:34:49.259  3083  3084 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:49.260  3083  3083 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:34:49.260  3083  3083 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:49.260  3083  3083 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:49.260  3083  3083 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:49.260  3083  3083 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:49.260  3083  3083 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:49.261  3083  3083 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:49.262  3083  3083 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:53.840  2499  2514 W .qcrilmsgtunne: Reducing the number of considered missed Gc histogram windows from 124 to 100
+01-29 14:34:53.952  3085  3085 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:54.227  3085  3089 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:54.232  3085  3085 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:54.233  3085  3085 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:54.233  3085  3085 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:54.233  3085  3085 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:54.233  3085  3085 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:54.234  3085  3085 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:54.234  3085  3085 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:34:56.032   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:34:58.880  1790  1807 W id.ext.service: Reducing the number of considered missed Gc histogram windows from 123 to 100
+01-29 14:34:59.060  3093  3093 I chatty  : uid=1000(system) expire 34 lines
+01-29 14:34:59.329  3093  3094 I chatty  : uid=1000(system) expire 1 line
+01-29 14:34:59.331  3093  3093 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:34:59.331  3093  3093 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:34:59.331  3093  3093 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:34:59.331  3093  3093 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:34:59.331  3093  3093 E improveTouch: [TouchServer:87] delete config management
+01-29 14:34:59.332  3093  3093 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:34:59.332  3093  3093 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:35:00.651  1482  1482 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+01-29 14:35:00.709  1482  1482 D KeyguardUpdateMonitor: handleTimeUpdate
+01-29 14:35:00.730  1482  1482 D KeyguardClockSwitch: Updating clock: 235
+01-29 14:35:00.743  1237  1537 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-29 14:35:00.753  1237  1537 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-29 14:35:00.797   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:00.800   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:00.802  1089  1401 I chatty  : uid=1000(system) WifiScanningSer expire 1 line
+01-29 14:35:00.804   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] wait_event:Wait done with Cmd 33
+01-29 14:35:00.804   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+01-29 14:35:00.806   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:00.807   492  1506 V WifiHAL : event received NL80211_CMD_TRIGGER_SCAN
+01-29 14:35:00.811   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:00.821   987  1059 I chatty  : uid=1001(radio) DispatcherModul identical 3 lines
+01-29 14:35:00.823   987  1059 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:00.947   295   295 I lowmemorykiller: Kill 'com.qti.diagservices' (2944), uid 1000, oom_adj 800 to free 19732kB
+01-29 14:35:01.064   396   396 I Zygote  : Process 2944 exited due to signal 9 (Killed)
+01-29 14:35:01.065  1089  4086 I ActivityManager: Process com.qti.diagservices (pid 2944) has died: svcb SVC 
+01-29 14:35:01.065  1089  1196 I chatty  : uid=1000(system) ActivityManager expire 1 line
+01-29 14:35:01.068  1089  4086 W ActivityManager: Scheduling restart of crashed service com.qti.diagservices/.QTIDiagServices in 1000ms for start-requested
+01-29 14:35:01.096  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 15
+01-29 14:35:01.097  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 15
+01-29 14:35:01.335   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] wait_event:Wait done with Cmd 34
+01-29 14:35:01.335   492  1506 V WifiHAL : event received NL80211_CMD_NEW_SCAN_RESULTS
+01-29 14:35:01.335   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 34 Err 0
+01-29 14:35:01.336  1089  4086 I chatty  : uid=1000(system) Binder:1089_14 expire 5 lines
+01-29 14:35:01.336   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:35:01.336   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report Probe TSF 602323725582 as it greater than Beacon TSF 602263010551
+01-29 14:35:01.337   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] RSN_IE
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: Entered
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWIUtils] hexDump: msg(30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 01 )
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 47
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:11 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x0431): ESS Privacy ShortPreamble ShortSlotTime
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:11 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:35:01.337   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:11 (wlan0) ASSO: NO AddInfo: 0x0, TSF 6, 23:18:43.725, RSSI: -146, CPL: 127, AGE: 0,  SSID JioPrivateNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report beacon TSF 602323725609 as it greater than probe TSF 602139809962
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 54
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:10 LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_OPEN 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x0421): ESS ShortPreamble ShortSlotTime
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:10 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:35:01.338   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 00:a0:0a:2c:c1:10 (wlan0) ASSO: NO AddInfo: 0x1, TSF 6, 23:18:43.725, RSSI: -146, CPL: 127, AGE: 0,  SSID JioNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report Probe TSF 602323725517 as it greater than Beacon TSF 602263010421
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 44
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:af LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_OPEN 11mcRanging: No, ANQP: No, LCI: No, Civic: No, capability(0x1421): ESS ShortPreamble ShortSlotTime
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:af FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:35:01.339   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:af (wlan0) ASSO: NO AddInfo: 0x0, TSF 6, 23:18:43.725, RSSI: -112, CPL: 127, AGE: 0,  SSID JioNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:35:01.340   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:35:01.340   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report Probe TSF 602323725554 as it greater than Beacon TSF 602263010466
+01-29 14:35:01.340   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] RSN_IE
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: Entered
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWIUtils] hexDump: msg(30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 01 00 0f ac 03 )
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 45
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:ae LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-29 14:35:01.342   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:ae FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:35:01.343   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:b3:ae (wlan0) ASSO: NO AddInfo: 0x0, TSF 6, 23:18:43.725, RSSI: -112, CPL: 127, AGE: 0,  SSID JioPrivateNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:35:01.343   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] 
+01-29 14:35:01.343   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] print_bss_handler: Report beacon TSF 602323725635 as it greater than probe TSF 602323725635
+01-29 14:35:01.343   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] RSN_IE
+01-29 14:35:01.343   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: Entered
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWIUtils] hexDump: msg(30 18 01 00 00 0f ac 04 01 00 00 0f ac 04 02 00 00 0f ac 01 00 0f ac 03 )
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] decode_rsn_wpa_ie: LOWI_ENCRYPTION_TYPE_WPA_EAP
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] is_qcom_ie, bss_age: 46
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:82:0e LOWI_PHY_MODE_11NG_HT20(5), Beacon Interval: 100, LOWI_ENCRYPTION_TYPE_WPA_EAP 11mcRanging: No, ANQP: Yes, LCI: No, Civic: No, capability(0x1431): ESS Privacy ShortPreamble ShortSlotTime
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:82:0e FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 Country Code = IN 
+01-29 14:35:01.344   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] BSS 20:db:ab:95:82:0e (wlan0) ASSO: NO AddInfo: 0x1, TSF 6, 23:18:43.725, RSSI: -194, CPL: 127, AGE: 0,  SSID JioPrivateNet, TSFDelta: 0x0, TXRate: 0
+01-29 14:35:01.345   909  3286 D LOWI-9.0.0.79: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+01-29 14:35:01.345   909  3286 I LOWI-9.0.0.79: [LOWI-Scan] lowi_close_record:Scan done in 602281764ms, 5 APs in scan results
+01-29 14:35:01.345   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 60679 ms, err 0
+01-29 14:35:01.345   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+01-29 14:35:01.345   909  3286 D LOWI-9.0.0.79: [LOWIScanResultReceiver] Send scan meas to listener
+01-29 14:35:01.345   909   961 D LOWI-9.0.0.79: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+01-29 14:35:01.345   909   961 D LOWI-9.0.0.79: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+01-29 14:35:01.346   909   961 D LOWI-9.0.0.79: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+01-29 14:35:01.346   909   961 D LOWI-9.0.0.79: [LOWIController] Measurements received
+01-29 14:35:01.346   909   961 D LOWI-9.0.0.79: [LOWICacheManager] putInCache:Num of Meas to add: 5
+01-29 14:35:01.347   909   961 D LOWI-9.0.0.79: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+01-29 14:35:01.347   909   961 D LOWI-9.0.0.79: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+01-29 14:35:01.348   909  3286 D LOWI-9.0.0.79: [LOWIScanResultReceiver] Enter passive listening mode
+01-29 14:35:01.348   909  3286 D LOWI-9.0.0.79: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+01-29 14:35:01.348   909  3286 D LOWI-9.0.0.79: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+01-29 14:35:01.417  1089  1189 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras) } to com.jio.myjio/.jionet.receiver.WifiScanReceiver
+01-29 14:35:01.536  1237  2375 I FrewleTileCacheManagerV: Fetched 3 AP models from cache [CONTEXT service_id=6 ]
+01-29 14:35:01.696   483   565 I LocSvc_api_v02: ---> locClientSendReq line 2409 QMI_LOC_INJECT_POSITION_REQ_V02
+01-29 14:35:01.697   483   565 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:01.699   483   951 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:01.699   483   951 I LocSvc_ApiV02: <--- globalRespCb line 221 QMI_LOC_INJECT_POSITION_REQ_V02
+01-29 14:35:02.083  1089  1189 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 1000; state: DISABLED
+01-29 14:35:02.117   396   396 D Zygote  : Forked child process 3099
+01-29 14:35:02.128  1089  1190 I ActivityManager: Start proc 3099:com.qti.diagservices/1000 for service {com.qti.diagservices/com.qti.diagservices.QTIDiagServices}
+01-29 14:35:02.208  3099  3099 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:35:02.312  2087  2114 I adbd    : jdwp connection from 3099
+01-29 14:35:02.338  1089  1148 I chatty  : uid=1000(system) Binder:1089_1 expire 8 lines
+01-29 14:35:02.414  3099  3099 I Perf    : Connecting to perf service.
+01-29 14:35:02.443  3099  3099 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:35:02.447  3099  3099 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+01-29 14:35:02.459  3099  3099 E DiagJNIInterface: Trying to load libDiagService
+01-29 14:35:02.471  1089  1148 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10127; state: DISABLED
+01-29 14:35:02.472  1089  1190 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10127; state: ENABLED
+01-29 14:35:02.493   396   396 D Zygote  : Forked child process 3124
+01-29 14:35:02.501  1089  1190 I ActivityManager: Start proc 3124:com.google.android.gms/u0a127 for service {com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService}
+01-29 14:35:02.513  3124  3124 I Zygote  : seccomp disabled by setenforce 0
+01-29 14:35:02.539  2087  2114 I adbd    : jdwp connection from 3124
+01-29 14:35:02.569  3099  3099 I Diag_Lib: Diag_LSM_Init call succeeded
+01-29 14:35:02.689  3124  3124 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+01-29 14:35:02.690  3124  3124 W gle.android.gm: JIT profile information will not be recorded: profile file does not exist.
+01-29 14:35:02.747  3124  3124 I Perf    : Connecting to perf service.
+01-29 14:35:02.768  3124  3124 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+01-29 14:35:02.775  3124  3124 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+01-29 14:35:03.704   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:03.816  3124  3124 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+01-29 14:35:03.818  3124  3124 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+01-29 14:35:03.818  3124  3124 I DynamiteModule: Selected local version of com.google.android.gms.providerinstaller.dynamite
+01-29 14:35:03.879  3124  3124 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 329 native methods...
+01-29 14:35:04.043  3164  3164 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:35:04.092  3124  3124 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+01-29 14:35:04.220  3124  3124 I GmsApplication: [gms_startup_benchmark] Static start time (ms): 602325194, Startup latency (ms): 1417, Is system user: true
+01-29 14:35:04.226  3124  3178 I Watchcat: Started
+01-29 14:35:04.291  3124  3178 I GMS_MM_Logger: Start time: 225075
+01-29 14:35:04.292  3124  3178 I GMS_MM_Logger: Started.
+01-29 14:35:04.331  3164  3165 I chatty  : uid=1000(system) expire 1 line
+01-29 14:35:04.332  3164  3164 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:35:04.333  3164  3164 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:35:04.333  3164  3164 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:35:04.334  3164  3164 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:35:04.334  3164  3164 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:35:04.334  3164  3164 E improveTouch: [TouchServer:87] delete config management
+01-29 14:35:04.335  3164  3164 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:35:04.335  3164  3164 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:35:04.425  3124  3146 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:7 and remote module com.google.android.gms.googlecertificates:0
+01-29 14:35:04.426  3124  3146 I DynamiteModule: Selected local version of com.google.android.gms.googlecertificates
+01-29 14:35:04.578   297   297 I chatty  : uid=1000(system) hwservicemanage expire 4 lines
+01-29 14:35:04.602  1089  1189 I chatty  : uid=1000(system) ActivityManager expire 3 lines
+01-29 14:35:04.654  1089  1148 D CompatibilityInfo: mCompatibilityFlags - 0
+01-29 14:35:04.654  1089  1148 D CompatibilityInfo: applicationDensity - 320
+01-29 14:35:04.654  1089  1148 D CompatibilityInfo: applicationScale - 1.0
+01-29 14:35:04.786   295   295 I lowmemorykiller: Kill 'com.google.android.gms' (3124), uid 10127, oom_adj 905 to free 49108kB
+01-29 14:35:04.906   396   396 I Zygote  : Process 3124 exited due to signal 9 (Killed)
+01-29 14:35:04.907  1089  1148 I ActivityManager: Process com.google.android.gms (pid 3124) has died: cch+5 CEM 
+01-29 14:35:04.907  1089  1196 I libprocessgroup: Successfully killed process cgroup uid 10127 pid 3124 in 0ms
+01-29 14:35:04.911   297   297 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+01-29 14:35:07.416  3099  3121 I ti.diagservice: Waiting for a blocking GC ProfileSaver
+01-29 14:35:07.516  3099  3121 I ti.diagservice: WaitForGcToComplete blocked ProfileSaver on RunEmptyCheckpoint for 98.339ms
+01-29 14:35:07.547   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:08.710   297   297 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+01-29 14:35:09.084  3187  3187 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:35:09.350  3187  3188 I chatty  : uid=1000(system) expire 1 line
+01-29 14:35:09.351  3187  3187 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:35:09.351  3187  3187 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:35:09.351  3187  3187 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:35:09.351  3187  3187 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:35:09.351  3187  3187 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:35:09.351  3187  3187 E improveTouch: [TouchServer:87] delete config management
+01-29 14:35:09.352  3187  3187 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:35:09.353  3187  3187 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:35:10.339   295   295 I lowmemorykiller: Kill 'android.process.media' (3039), uid 10079, oom_adj 800 to free 25464kB
+01-29 14:35:10.413  1089  3390 I ActivityManager: Process android.process.media (pid 3039) has died: svcb SVC 
+01-29 14:35:10.416   297   297 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.servicetracker@1.0::IServicetracker/default in either framework or device manifest.
+01-29 14:35:10.418  1089  3390 W ActivityManager: Scheduling restart of crashed service com.android.mtp/.MtpService in 106390ms for start-requested
+01-29 14:35:10.437   396   396 I Zygote  : Process 3039 exited due to signal 9 (Killed)
+01-29 14:35:10.451  1089  1196 I libprocessgroup: Successfully killed process cgroup uid 10079 pid 3039 in 37ms
+01-29 14:35:10.455  1577  1577 I AppBase : AppBase.onTrimMemory():786 onTrimMemory(): 15
+01-29 14:35:10.455  1577  1577 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():4569 onTrimMemory(): 15
+01-29 14:35:10.992  1089  1101 I system_server: Background concurrent copying GC freed 124181(6201KB) AllocSpace objects, 24(556KB) LOS objects, 49% free, 18MB/36MB, paused 369us total 1.023s
+01-29 14:35:11.393   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:14.101  3190  3190 I chatty  : uid=1000(system) expire 33 lines
+01-29 14:35:14.359  3190  3191 I chatty  : uid=1000(system) expire 1 line
+01-29 14:35:14.360  3190  3190 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:35:14.360  3190  3190 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:35:14.360  3190  3190 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:35:14.360  3190  3190 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:35:14.360  3190  3190 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:35:14.360  3190  3190 E improveTouch: [TouchServer:87] delete config management
+01-29 14:35:14.361  3190  3190 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:35:14.361  3190  3190 E improveTouch: [Main:169] fail to initiate touch server
+01-29 14:35:16.358  1482  1497 I ndroid.systemu: Background concurrent copying GC freed 47602(2669KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 6090KB/23MB, paused 243us total 382.409ms
+01-29 14:35:19.070   987  1142 E QMI_FW  : qmi_cci_get_ref: ref count increased 2
+01-29 14:35:19.107  3192  3192 I chatty  : uid=1000(system) expire 2 lines
+01-29 14:35:19.108  3192  3192 D improveTouch: [Main:158] Start touch daemon
+01-29 14:35:19.110  3192  3192 E improveTouch: [ConfigManager:234] /sys/devices/soc0/chip_name doesn't exist
+01-29 14:35:19.111  3192  3192 D improveTouch: [ConfigManager:501] loader file is available. loading it...
+01-29 14:35:19.124  3192  3192 D improveTouch: [ConfigManager:405] no custom ID defined
+01-29 14:35:19.125  3192  3192 D improveTouch: [ConfigManager:428] GetPktStatus: E
+01-29 14:35:19.125  3192  3192 E improveTouch: [ConfigManager:444] can't open /data/vendor/hbtp/pkt_play
+01-29 14:35:19.125  3192  3192 D improveTouch: [ConfigManager:448] GetPktStatus: X
+01-29 14:35:19.125  3192  3192 I improveTouch: [ConfigManager:546] Data Dir = /data/vendor/hbtp
+01-29 14:35:19.125  3192  3192 I improveTouch: [ConfigManager:547] Main Config Dir = /vendor/etc/hbtp
+01-29 14:35:19.126  3192  3192 I improveTouch: [ConfigManager:551] ConfigFile = /vendor/etc/hbtp/hbtpcfg_sdm450_801s_fhdp.dat
+01-29 14:35:19.126  3192  3192 I improveTouch: [ConfigManager:554] UTFLib = libFastRPC_UTF_Forward_skel.so
+01-29 14:35:19.126  3192  3192 I improveTouch: [ConfigManager:557] AFEFW = /vendor/etc/hbtp/qtc801s_450.bin
+01-29 14:35:19.126  3192  3192 I improveTouch: [ConfigManager:560] DSP = adsp
+01-29 14:35:19.126  3192  3192 D improveTouch: [TouchController:415] init: E
+01-29 14:35:19.127  3192  3192 D improveTouch: [ConfigManager:583] start loading config
+01-29 14:35:19.375  3192  3192 D improveTouch: [ConfigManager:675] finished loading config
+01-29 14:35:19.382  3192  3192 D improveTouch: [TouchController:454] Power Control Config doesn't exist
+01-29 14:35:19.382  3192  3192 D improveTouch: [TouchController:462] Power Sync Option doesn't exist
+01-29 14:35:19.382  3192  3192 D improveTouch: [TouchController:464] PowerManager Option = 0
+01-29 14:35:19.382  3192  3192 E improveTouch: [InputDevice:61] InputDevice: pixelX: min = 0, max = 1080 pixelY: min = 0, max = 2160
+01-29 14:35:19.382  3192  3192 E improveTouch: [InputDevice:65] Unable to open /dev/hbtp_input
+01-29 14:35:19.382  3192  3192 E improveTouch: [TouchController:490] Error initializing input device: Error opening file
+01-29 14:35:19.382  3192  3192 D improveTouch: [TouchController:1136] CommandExecutor::exit: thread is running, kill it first
+01-29 14:35:19.383  3192  3193 D improveTouch: [TouchController:1186] runLoop exits
+01-29 14:35:19.383  3192  3192 D RefBase : RefBase: Explicit destruction, weak count = 0 (in 0xaa4794d8)
+01-29 14:35:19.383  3192  3192 W RefBase : CallStack::getCurrentInternal not linked, returning null
+01-29 14:35:19.383  3192  3192 W RefBase : CallStack::logStackInternal not linked
+01-29 14:35:19.383  3192  3192 E improveTouch: [TouchController:522] init failed, ret = 1073741825
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:59] fail to init TouchController: Error opening file
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:69] error happened, clean-up resource and exit
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:71] delete event monitor
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:75] delete controller
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:79] delete touch processor
+01-29 14:35:19.384  3192  3192 D improveTouch: [DSPTouchProcessor:807] deInit: E
+01-29 14:35:19.384  3192  3192 E improveTouch: [DSPTouchProcessor:823] deInit: invalid state (current = 0)
+01-29 14:35:19.384  3192  3192 D improveTouch: [DSPTouchProcessor:827] deInit: X pa_utf_ret = 1, ret = 1073741835
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:83] delete event injector
+01-29 14:35:19.384  3192  3192 E improveTouch: [TouchServer:87] delete config management
+01-29 14:35:19.386  3192  3192 E improveTouch: [TouchServer:90] fail to start daemon
+01-29 14:35:19.386  3192  3192 E improveTouch: [Main:169] fail to initiate touch server

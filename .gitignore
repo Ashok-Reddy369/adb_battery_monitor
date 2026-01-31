@@ -10,10 +10,10 @@ venv/
 # VS Code
 .vscode/
 
-# Logs & reports
-adb_logs/
-reports/
-*.log
+# # Logs & reports
+# adb_logs/
+# reports/
+# *.log
 
 # OS
 .DS_Store
